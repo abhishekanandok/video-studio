@@ -1,0 +1,25 @@
+.env
+secrets/
+.venv/
+__pycache__/
+node_modules/
+.next/
+*.tsbuildinfo
+# renders and generated film assets are large: keep them out of git
+video/out/
+video/public/
+video/geo-cache/
+frontend/public/*
+!frontend/public/looks/
+!frontend/public/library/
+.DS_Store
+comfyui-slide/
+# code the film engines write per film is output, like the renders: keep it out of git (the library showcase stays)
+video/src/argon/gen/*
+!video/src/argon/gen/motion-library-1024/
+video/src/oneshot/gen/
+# one film's own script, voice and score scripts, and local still helpers: kept on the creator's machine
+video/oneshot/
+video/.*.mjs
+backend/scratchpad/
+backend/package-lock.json

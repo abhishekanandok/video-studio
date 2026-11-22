@@ -1,0 +1,279 @@
+{
+  "how_to_use": [
+    "In Google Flow pick 'Frames to Video' (NOT 'Text to Video'). Upload the file in start_frame as the FIRST frame. Without it Veo invents a new person and room.",
+    "Model: Veo 3.1 Quality. Aspect ratio and length as given. Paste only the 'prompt' object as the prompt text.",
+    "Leave the end frame empty. If the face still drifts, lower creativity or regenerate; keep the take where frame 1 matches the photo exactly.",
+    "Name the downloaded file as in output_file."
+  ],
+  "clips": [
+    {
+      "id": "record",
+      "output_file": "record.mp4",
+      "start_frame": "frontend/public/landing/creator.jpg",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 8,
+      "prompt": {
+        "task": "Animate this exact photo. The first frame is the photo; keep everything in it identical and only add natural motion and speech.",
+        "subject": "The same Indian woman in the photo, about 25: shoulder-length wavy dark hair, small gold hoop earrings, thin gold chain, olive green overshirt open over a white t-shirt, gold bracelet. She sits at a wooden desk behind a black podcast microphone on a boom arm with a round pop filter on the left.",
+        "setting": "The same home studio: textured beige concrete wall, metal shelf with plants, books and a framed print, warm table lamp on the left, fairy lights on the far left, a green neon loop-shaped sign (a shape, not letters) on the upper right, closed dark laptop on the desk in the foreground.",
+        "action_timeline": [
+          { "t": "0.0-2.0s", "action": "She looks into the lens, smiles and says the first line, slight nod.", "dialogue": "Ek chai ke dus rupaye." },
+          { "t": "2.0-3.8s", "action": "Her right hand opens in a small easy gesture.", "dialogue": "Aapne QR scan kiya," },
+          { "t": "3.8-5.6s", "action": "Small head tilt, eyebrows lift.", "dialogue": "aur paisa pahunch gaya." },
+          { "t": "5.8-8.0s", "action": "She leans in slightly towards the mic, curious expression, then holds a warm smile.", "dialogue": "Par beech mein hua kya?" }
+        ],
+        "camera": "Locked-off tripod shot, eye level, exactly the framing of the photo. No zoom, no pan, no cuts.",
+        "lighting": "Same as the photo: warm lamp key light from the left, soft green neon rim on the right, catchlights in the eyes.",
+        "audio": {
+          "voice": "Warm, upbeat young Indian woman, natural Hinglish (Hindi words in Indian accent), conversational YouTuber pace, close-mic podcast sound.",
+          "lip_sync": "Exact lip sync to every word.",
+          "ambience": "Very quiet room tone. No music."
+        },
+        "style": "Photorealistic, natural skin texture, real-time motion, 24 fps, cinematic but natural.",
+        "negative": "different woman, changed face, changed clothes, white t-shirt only, no microphone, different room, readable text on the neon sign, letters, captions, subtitles, logos, watermark, extra people, camera movement, cuts, warped hands"
+      }
+    },
+    {
+      "id": "avatar",
+      "output_file": "avatar.mp4",
+      "start_frame": "frontend/public/landing/avatar-3d.jpg",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 8,
+      "prompt": {
+        "task": "Animate this exact 3D character render. The first frame is the image; keep the character, outfit, pose and background identical and only add animation and speech.",
+        "subject": "The same 3D Pixar-style young Indian man, about 20: fluffy wavy dark brown hair, big brown eyes, thick eyebrows, light stubble, lime green zip hoodie, white t-shirt with the word 'Drishyya' in small dark letters on the chest, black jeans, white sneakers with lime accents. He sits cross-legged on the floor, right hand giving a thumbs up, left hand holding an open silver laptop angled on his knee.",
+        "setting": "The same plain off-white studio background with a soft lime-green glow around him, soft floor shadow.",
+        "action_timeline": [
+          { "t": "0.0-1.5s", "action": "He holds the thumbs up, blinks, his smile widens, hair bounces slightly.", "dialogue": "" },
+          { "t": "1.5-5.5s", "action": "He looks into the camera and talks, lowering the thumb to a relaxed open hand.", "dialogue": "Script do, video main bana deta hoon." },
+          { "t": "5.5-8.0s", "action": "He glances at the laptop, taps it once with his right hand, looks back at the camera and winks.", "dialogue": "" }
+        ],
+        "camera": "Static, same framing as the image, full body in frame. No zoom, no cuts.",
+        "lighting": "Same soft studio light, gentle rim light, subsurface skin shading.",
+        "audio": {
+          "voice": "Cheerful, friendly young Indian male voice, Hinglish, animated-film energy.",
+          "lip_sync": "Exact lip sync.",
+          "ambience": "Light soft studio tone, a tiny playful pop on the wink. No music."
+        },
+        "style": "High-end Pixar-quality 3D animation, smooth squash-and-stretch, 24 fps.",
+        "negative": "different character, younger child, changed hair, changed hoodie colour, missing or misspelled 'Drishyya', extra text, captions, logos, watermark, realistic human, background change, camera move, cuts"
+      }
+    },
+    {
+      "id": "review-1",
+      "output_file": "review-1.mp4",
+      "start_frame": "frontend/public/landing/c-chai.jpg",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 8,
+      "prompt": {
+        "task": "Animate this exact photo. Keep every person, outfit, object and the street identical; only add natural motion.",
+        "subject": "The woman in the mustard-yellow kurta at the chai stall holding up her phone to pay; the older vendor behind the counter with steel kettles and pots; customers on the left holding small glasses of chai.",
+        "setting": "Busy roadside chai stall on an Indian city street at golden hour, the 'चाय' sign above, shops and buildings behind, a motorbike in the background.",
+        "action_timeline": [
+          { "t": "0-3s", "action": "Steam curls up from the kettles and glasses. The vendor pours chai in a long stream from a kettle into a glass." },
+          { "t": "3-6s", "action": "The woman holds her phone steady towards the counter, then lowers it and smiles at the vendor. A customer on the left sips chai." },
+          { "t": "6-8s", "action": "A motorbike rides across the background. Dust glows in the low sun." }
+        ],
+        "camera": "Slow, smooth dolly-in of about 10% towards the woman. No cuts.",
+        "lighting": "Same warm golden backlight with sun flare, as in the photo.",
+        "audio": { "ambience": "Street ambience, chai pouring, distant traffic. No music, no dialogue." },
+        "style": "Photorealistic, cinematic documentary, real-time speed.",
+        "negative": "new people, changed faces or clothes, different street, text changes, captions, logos, watermark, fast motion, cuts"
+      }
+    },
+    {
+      "id": "review-2",
+      "output_file": "review-2.mp4",
+      "start_frame": "frontend/public/landing/c-qr.jpg",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 8,
+      "prompt": {
+        "task": "Animate this exact photo. Keep the hand, phone, QR sticker and counter identical; only add motion.",
+        "subject": "A man's right hand holding a black smartphone; the phone camera shows the QR code; the printed QR sticker is taped to the metal frame of the chai-stall counter.",
+        "setting": "Evening street market, warm bokeh lights and glass jars blurred in the background.",
+        "action_timeline": [
+          { "t": "0-3s", "action": "The hand makes tiny natural adjustments, the QR on the phone screen lines up inside the scan frame." },
+          { "t": "3-5s", "action": "The phone screen flashes brighter as the scan completes; the hand eases back a little." },
+          { "t": "5-8s", "action": "Background bokeh lights twinkle, out-of-focus people pass behind." }
+        ],
+        "camera": "Macro, very slow push-in towards the phone, gentle rack focus from the sticker to the phone screen at 3s.",
+        "lighting": "Same warm evening market light.",
+        "audio": { "ambience": "Soft market chatter, a tiny phone scan blip at 3s. No music." },
+        "style": "Photorealistic, cinematic macro, shallow depth of field.",
+        "negative": "readable app text, numbers, brand names, changed hand, extra fingers, captions, logos, watermark, cuts"
+      }
+    },
+    {
+      "id": "review-3",
+      "output_file": "review-3.mp4",
+      "start_frame": "frontend/public/landing/c-vendor.jpg",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 8,
+      "prompt": {
+        "task": "Animate this exact photo. Keep the vendor, his clothes, the stall and the market identical; only add motion.",
+        "subject": "The young street-food vendor in a blue denim shirt and grey apron, holding his phone with a green payment screen, smiling.",
+        "setting": "Evening street-food market: string lights, pans of food on the counter, jars on shelves on the left, crowd in soft focus.",
+        "action_timeline": [
+          { "t": "0-3s", "action": "He looks down at the phone, the screen glows, his smile grows into a proud grin." },
+          { "t": "3-6s", "action": "He looks up past the camera and gives a small thankful nod to a customer off-screen." },
+          { "t": "6-8s", "action": "He slips the phone into his apron pocket and reaches for the ladle. Steam rises from the pans." }
+        ],
+        "camera": "Slow dolly-in towards his face. No cuts.",
+        "lighting": "Same warm string lights and evening glow.",
+        "audio": { "ambience": "Sizzling pans, market chatter, a soft payment chime at 1s. No music." },
+        "style": "Photorealistic, cinematic street documentary.",
+        "negative": "different man, changed clothes, readable screen text, captions, logos, watermark, cuts"
+      }
+    },
+    {
+      "id": "review-4",
+      "output_file": "review-4.mp4",
+      "start_frame": "frontend/public/landing/c-city.jpg",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 8,
+      "prompt": {
+        "task": "Animate this exact aerial photo. Keep the city layout, coastline and buildings identical; only add motion.",
+        "subject": "Mumbai at night from high above: the curving coastal road, dense towers, the sea on the left.",
+        "action_timeline": [
+          { "t": "0-8s", "action": "Streams of headlights and taillights flow continuously along the curving road and through the streets like light through veins. Windows flicker. Gentle waves roll along the shore." }
+        ],
+        "camera": "Slow, smooth drone glide forward and slightly down, about 10% over 8 seconds. No cuts.",
+        "lighting": "Same night lighting, warm orange street lights, deep blue sky.",
+        "audio": { "ambience": "Distant city hum, soft wind. No music." },
+        "style": "Photorealistic, cinematic aerial, calm.",
+        "negative": "daylight, changed skyline, text, logos, watermark, fast motion, cuts"
+      }
+    },
+    {
+      "id": "review-5",
+      "output_file": "review-5.mp4",
+      "start_frame": "frontend/public/landing/c-pin.jpg",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 8,
+      "prompt": {
+        "task": "Animate this exact photo. Keep the person, hands, phone and room identical; only add motion.",
+        "subject": "Over-the-shoulder view of a woman with long dark hair in a dark knit sweater, both hands holding a phone. The screen faces her and the camera and shows a PIN keypad with a lock icon.",
+        "setting": "Dark cosy room at night, warm lamps and bokeh in the background.",
+        "action_timeline": [
+          { "t": "0-4s", "action": "Her right thumb taps four keys one after another; each tap fills one dot at the top of the screen." },
+          { "t": "4-5s", "action": "The lock icon turns into a soft green tick." },
+          { "t": "5-8s", "action": "She relaxes her hands slightly; the lamp light breathes softly in the background." }
+        ],
+        "camera": "Very slow push-in towards the phone screen. The screen always faces her and the camera. No cuts.",
+        "lighting": "Same dark room lit by the phone glow and warm lamps.",
+        "audio": { "ambience": "Four soft key taps, a gentle success tone at 4s, quiet room. No music." },
+        "style": "Photorealistic, moody cinematic close-up.",
+        "negative": "screen facing away, readable numbers, changed person, extra fingers, captions, logos, watermark, cuts"
+      }
+    },
+    {
+      "id": "review-6",
+      "output_file": "review-6.mp4",
+      "start_frame": "frontend/public/landing/c-rooftop.jpg",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 8,
+      "prompt": {
+        "task": "Animate this exact photo. Keep every friend, outfit, the table and the skyline identical; only add motion.",
+        "subject": "A group of young Indian friends at a rooftop café table at sunset; the man in the centre in a dark patterned shirt holds a phone; the woman in yellow on the left laughs.",
+        "setting": "Rooftop café, drinks and plates on a wooden table, plants, city skyline and soft clouds behind.",
+        "action_timeline": [
+          { "t": "0-3s", "action": "The man turns his phone to show the others the split bill; they lean in." },
+          { "t": "3-6s", "action": "The group bursts out laughing; the woman in yellow throws her head back; someone raises a glass." },
+          { "t": "6-8s", "action": "They settle into smiles; clouds drift slowly over the skyline." }
+        ],
+        "camera": "Slow, gentle orbit to the right, about 5 degrees. No cuts.",
+        "lighting": "Same warm golden sunset light.",
+        "audio": { "ambience": "Friends laughing, café chatter, clinking glasses. No music." },
+        "style": "Photorealistic, warm lifestyle cinematography.",
+        "negative": "new people, changed faces or clothes, readable screen text, captions, logos, watermark, cuts"
+      }
+    },
+    {
+      "id": "publish",
+      "output_file": "publish.mp4",
+      "start_frame": "frontend/public/landing/c-chai.jpg",
+      "aspect_ratio": "16:9",
+      "duration_seconds": 8,
+      "prompt": {
+        "task": "Animate this exact photo as the polished opening shot of a YouTube documentary. Keep every person, outfit and the street identical.",
+        "subject": "The woman in the mustard-yellow kurta paying with her phone at the chai stall, the vendor pouring chai, customers with glasses.",
+        "setting": "The same golden-hour chai stall and city street, 'चाय' sign above.",
+        "action_timeline": [
+          { "t": "0-4s", "action": "The vendor pours chai, steam rises, the woman holds out her phone to pay." },
+          { "t": "4-8s", "action": "She smiles and takes her glass of chai; a motorbike passes behind." }
+        ],
+        "camera": "Smooth cinematic crane move: starts at the framing of the photo and rises slowly to reveal more of the street. No cuts.",
+        "lighting": "Same warm golden backlight with gentle flare.",
+        "audio": { "ambience": "Street ambience, chai pouring. No music, no dialogue." },
+        "style": "Premium cinematic documentary, rich film-like colour.",
+        "negative": "changed people, different street, captions, logos, watermark, cuts"
+      }
+    },
+    {
+      "id": "short-1",
+      "output_file": "short-1.mp4",
+      "start_frame": "docs/landing/first-frames/short-1.jpg",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 8,
+      "prompt": {
+        "task": "Animate this exact vertical photo as an Instagram Reel. Keep the vendor, his clothes and the stall identical.",
+        "subject": "The young street-food vendor in a blue denim shirt and grey apron, holding his phone with a green payment screen, smiling.",
+        "setting": "Evening street-food stall, string lights above, pans and food on the counter.",
+        "action_timeline": [
+          { "t": "0-3s", "action": "His phone lights up, he grins." },
+          { "t": "3-6s", "action": "He turns to the camera and gives a quick thumbs up." },
+          { "t": "6-8s", "action": "He laughs and goes back to the pan; steam rises." }
+        ],
+        "camera": "Handheld, punchy push-in, Reel energy. No cuts.",
+        "lighting": "Same warm string lights.",
+        "audio": { "ambience": "Sizzle, market buzz, payment chime. No music." },
+        "style": "Photorealistic, social-first, vibrant.",
+        "negative": "different man, readable screen text, captions, logos, watermark, cuts"
+      }
+    },
+    {
+      "id": "short-2",
+      "output_file": "short-2.mp4",
+      "start_frame": "docs/landing/first-frames/short-2.jpg",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 8,
+      "prompt": {
+        "task": "Animate this exact vertical photo as an Instagram Reel. Keep the hand, phone, QR sticker and counter identical.",
+        "subject": "A hand holding a black smartphone over the QR sticker on the chai-stall counter.",
+        "setting": "Evening market, warm string lights and bokeh above.",
+        "action_timeline": [
+          { "t": "0-3s", "action": "The phone lines up the QR code inside the scan frame." },
+          { "t": "3-4s", "action": "Snap: the screen flashes as the scan completes." },
+          { "t": "4-8s", "action": "The hand pulls the phone back towards the camera; bokeh lights twinkle." }
+        ],
+        "camera": "Quick satisfying snap-zoom onto the phone at 3s, then a slow drift. No cuts.",
+        "lighting": "Same warm evening light.",
+        "audio": { "ambience": "Market chatter, scan blip at 3s. No music." },
+        "style": "Photorealistic, punchy social pace.",
+        "negative": "readable app text, extra fingers, captions, logos, watermark, cuts"
+      }
+    },
+    {
+      "id": "short-3",
+      "output_file": "short-3.mp4",
+      "start_frame": "docs/landing/first-frames/short-3.jpg",
+      "aspect_ratio": "9:16",
+      "duration_seconds": 8,
+      "prompt": {
+        "task": "Animate this exact vertical photo as an Instagram Reel. Keep every friend, outfit, the table and the skyline identical.",
+        "subject": "Friends at a rooftop café table at sunset; the man in the dark patterned shirt holds his phone; the woman in yellow on the left.",
+        "setting": "Rooftop café, drinks and snacks, city skyline at sunset behind.",
+        "action_timeline": [
+          { "t": "0-3s", "action": "The man turns his phone towards the camera with a grin." },
+          { "t": "3-6s", "action": "Everyone bursts out laughing." },
+          { "t": "6-8s", "action": "The woman in yellow raises her glass to the camera." }
+        ],
+        "camera": "Lively handheld, slight push-in. No cuts.",
+        "lighting": "Same golden sunset light.",
+        "audio": { "ambience": "Laughter, café chatter, glasses clinking. No music." },
+        "style": "Photorealistic, warm, Reel energy.",
+        "negative": "new people, changed faces, readable screen text, captions, logos, watermark, cuts"
+      }
+    }
+  ]
+}

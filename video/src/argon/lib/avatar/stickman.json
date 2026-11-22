@@ -1,0 +1,3962 @@
+{
+  "_help": "Angles are degrees. 0 = limb hangs straight down, 90 = points to the right of the screen, -90 = to the left, 180 = straight up. Arms/legs are [upper, bend]: 'upper' is the shoulder/hip angle, 'bend' is how much the elbow/knee turns from there. body = lean, head = head tilt, y = move the whole body down (+) or up (-). Moves are keyframes (t in seconds) that blend smoothly and repeat when loop is true.",
+  "faces": {
+    "eyes": [
+      "open",
+      "happy",
+      "wide",
+      "closed",
+      "sleepy",
+      "angry",
+      "sad",
+      "wink"
+    ],
+    "brows": [
+      "none",
+      "up",
+      "angry",
+      "sad",
+      "worried"
+    ],
+    "mouth": [
+      "smile",
+      "grin",
+      "big",
+      "flat",
+      "frown",
+      "o",
+      "smirk",
+      "teeth",
+      "wavy"
+    ]
+  },
+  "poses": {
+    "stand": {
+      "l_arm": [
+        -14,
+        10
+      ],
+      "r_arm": [
+        14,
+        -10
+      ],
+      "l_leg": [
+        -6,
+        0
+      ],
+      "r_leg": [
+        6,
+        0
+      ],
+      "face": {
+        "eyes": "open",
+        "brows": "none",
+        "mouth": "smile"
+      }
+    },
+    "point": {
+      "l_arm": [
+        -14,
+        10
+      ],
+      "r_arm": [
+        92,
+        -4
+      ],
+      "l_leg": [
+        -6,
+        0
+      ],
+      "r_leg": [
+        7,
+        0
+      ],
+      "body": -3,
+      "head": -4,
+      "face": {
+        "eyes": "open",
+        "brows": "up",
+        "mouth": "grin"
+      }
+    },
+    "present": {
+      "l_arm": [
+        -30,
+        50
+      ],
+      "r_arm": [
+        60,
+        40
+      ],
+      "l_leg": [
+        -7,
+        0
+      ],
+      "r_leg": [
+        7,
+        0
+      ],
+      "body": -2,
+      "face": {
+        "eyes": "happy",
+        "brows": "up",
+        "mouth": "big"
+      }
+    },
+    "happy": {
+      "l_arm": [
+        -128,
+        -22
+      ],
+      "r_arm": [
+        128,
+        22
+      ],
+      "l_leg": [
+        -8,
+        0
+      ],
+      "r_leg": [
+        8,
+        0
+      ],
+      "face": {
+        "eyes": "happy",
+        "brows": "up",
+        "mouth": "big"
+      }
+    },
+    "think": {
+      "l_arm": [
+        -14,
+        10
+      ],
+      "r_arm": [
+        35,
+        -195
+      ],
+      "l_leg": [
+        -6,
+        0
+      ],
+      "r_leg": [
+        6,
+        0
+      ],
+      "head": 8,
+      "face": {
+        "eyes": "open",
+        "brows": "worried",
+        "mouth": "smirk"
+      }
+    },
+    "shrug": {
+      "l_arm": [
+        -70,
+        -85
+      ],
+      "r_arm": [
+        70,
+        85
+      ],
+      "l_leg": [
+        -6,
+        0
+      ],
+      "r_leg": [
+        6,
+        0
+      ],
+      "head": 6,
+      "face": {
+        "eyes": "open",
+        "brows": "up",
+        "mouth": "flat"
+      }
+    },
+    "sad": {
+      "l_arm": [
+        -5,
+        3
+      ],
+      "r_arm": [
+        5,
+        -3
+      ],
+      "l_leg": [
+        -4,
+        0
+      ],
+      "r_leg": [
+        4,
+        0
+      ],
+      "body": 4,
+      "head": 14,
+      "y": 6,
+      "face": {
+        "eyes": "sad",
+        "brows": "sad",
+        "mouth": "frown"
+      }
+    },
+    "hold": {
+      "l_arm": [
+        -14,
+        10
+      ],
+      "r_arm": [
+        40,
+        75
+      ],
+      "l_leg": [
+        -6,
+        0
+      ],
+      "r_leg": [
+        6,
+        0
+      ],
+      "face": {
+        "eyes": "happy",
+        "brows": "none",
+        "mouth": "smile"
+      }
+    },
+    "shock": {
+      "l_arm": [
+        -100,
+        -40
+      ],
+      "r_arm": [
+        100,
+        40
+      ],
+      "l_leg": [
+        -12,
+        0
+      ],
+      "r_leg": [
+        12,
+        0
+      ],
+      "body": 0,
+      "y": -4,
+      "face": {
+        "eyes": "wide",
+        "brows": "up",
+        "mouth": "o"
+      }
+    },
+    "facepalm": {
+      "l_arm": [
+        -14,
+        10
+      ],
+      "r_arm": [
+        20,
+        -172
+      ],
+      "l_leg": [
+        -5,
+        0
+      ],
+      "r_leg": [
+        5,
+        0
+      ],
+      "body": 6,
+      "head": 14,
+      "face": {
+        "eyes": "closed",
+        "brows": "sad",
+        "mouth": "wavy"
+      }
+    },
+    "pray": {
+      "l_arm": [
+        -22,
+        128
+      ],
+      "r_arm": [
+        22,
+        -128
+      ],
+      "l_leg": [
+        -5,
+        0
+      ],
+      "r_leg": [
+        5,
+        0
+      ],
+      "head": 6,
+      "face": {
+        "eyes": "closed",
+        "brows": "none",
+        "mouth": "smile"
+      }
+    },
+    "confident": {
+      "l_arm": [
+        -45,
+        100
+      ],
+      "r_arm": [
+        45,
+        -100
+      ],
+      "l_leg": [
+        -14,
+        0
+      ],
+      "r_leg": [
+        14,
+        0
+      ],
+      "body": -2,
+      "head": -6,
+      "face": {
+        "eyes": "open",
+        "brows": "none",
+        "mouth": "smirk"
+      }
+    },
+    "tired": {
+      "l_arm": [
+        -4,
+        2
+      ],
+      "r_arm": [
+        4,
+        -2
+      ],
+      "l_leg": [
+        -3,
+        4
+      ],
+      "r_leg": [
+        3,
+        -4
+      ],
+      "body": 10,
+      "head": 22,
+      "y": 10,
+      "face": {
+        "eyes": "sleepy",
+        "brows": "sad",
+        "mouth": "wavy"
+      }
+    },
+    "sit": {
+      "l_arm": [
+        -28,
+        60
+      ],
+      "r_arm": [
+        28,
+        -60
+      ],
+      "l_leg": [
+        80,
+        -80
+      ],
+      "r_leg": [
+        86,
+        -86
+      ],
+      "y": 62,
+      "prop": "chair",
+      "face": {
+        "eyes": "open",
+        "brows": "none",
+        "mouth": "smile"
+      }
+    },
+    "victory": {
+      "l_arm": [
+        -14,
+        10
+      ],
+      "r_arm": [
+        165,
+        10
+      ],
+      "l_leg": [
+        -10,
+        0
+      ],
+      "r_leg": [
+        10,
+        0
+      ],
+      "face": {
+        "eyes": "happy",
+        "brows": "up",
+        "mouth": "big"
+      }
+    },
+    "meditate": {
+      "l_arm": [
+        -38.0,
+        30.0
+      ],
+      "r_arm": [
+        38.0,
+        -30.0
+      ],
+      "l_leg": [
+        -82.0,
+        150.0
+      ],
+      "r_leg": [
+        82.0,
+        -150.0
+      ],
+      "y": 84.0,
+      "face": {
+        "eyes": "closed",
+        "brows": "none",
+        "mouth": "smile"
+      }
+    },
+    "clasp": {
+      "l_arm": [
+        -8,
+        46
+      ],
+      "r_arm": [
+        8,
+        -46
+      ],
+      "l_leg": [
+        -5,
+        0
+      ],
+      "r_leg": [
+        5,
+        0
+      ],
+      "clasp": true,
+      "face": {
+        "eyes": "open",
+        "brows": "none",
+        "mouth": "smile"
+      }
+    },
+    "crouch": {
+      "l_arm": [
+        -30.0,
+        22.0
+      ],
+      "r_arm": [
+        -18.0,
+        22.0
+      ],
+      "l_leg": [
+        58.0,
+        -96.0
+      ],
+      "r_leg": [
+        46.0,
+        -90.0
+      ],
+      "body": -14.0,
+      "y": 42.2,
+      "side": true,
+      "face": {
+        "eyes": "open",
+        "brows": "up",
+        "mouth": "flat"
+      }
+    },
+    "leap": {
+      "l_arm": [
+        -146.0,
+        10.0
+      ],
+      "r_arm": [
+        142.0,
+        -10.0
+      ],
+      "l_leg": [
+        18.0,
+        -46.0
+      ],
+      "r_leg": [
+        -14.0,
+        -38.0
+      ],
+      "body": 4.0,
+      "y": 11.8,
+      "side": true,
+      "face": {
+        "eyes": "happy",
+        "brows": "up",
+        "mouth": "big"
+      }
+    },
+    "tuck": {
+      "l_arm": [
+        56.0,
+        80.0
+      ],
+      "r_arm": [
+        66.0,
+        80.0
+      ],
+      "l_leg": [
+        80.0,
+        -110.0
+      ],
+      "r_leg": [
+        70.0,
+        -108.0
+      ],
+      "body": -6.0,
+      "y": 63.5,
+      "side": true,
+      "face": {
+        "eyes": "happy",
+        "brows": "up",
+        "mouth": "grin"
+      }
+    },
+    "hang": {
+      "l_arm": [
+        -174.0,
+        -4.0
+      ],
+      "r_arm": [
+        174.0,
+        4.0
+      ],
+      "l_leg": [
+        -6.0,
+        -4.0
+      ],
+      "r_leg": [
+        6.0,
+        -8.0
+      ],
+      "side": true,
+      "face": {
+        "eyes": "open",
+        "brows": "worried",
+        "mouth": "flat"
+      }
+    },
+    "sit_edge": {
+      "l_arm": [
+        -20.0,
+        16.0
+      ],
+      "r_arm": [
+        22.0,
+        -10.0
+      ],
+      "l_leg": [
+        94.0,
+        -100.0
+      ],
+      "r_leg": [
+        86.0,
+        -80.0
+      ],
+      "body": -2.0,
+      "y": 69.2,
+      "side": true,
+      "face": {
+        "eyes": "open",
+        "brows": "none",
+        "mouth": "smile"
+      }
+    },
+    "slump": {
+      "l_arm": [
+        20.0,
+        12.0
+      ],
+      "r_arm": [
+        54.0,
+        -14.0
+      ],
+      "l_leg": [
+        92.0,
+        -90.0
+      ],
+      "r_leg": [
+        86.0,
+        -88.0
+      ],
+      "body": -34.0,
+      "head": -9.0,
+      "y": 68.9,
+      "side": true,
+      "face": {
+        "eyes": "sleepy",
+        "brows": "sad",
+        "mouth": "frown"
+      }
+    },
+    "sit_floor": {
+      "l_arm": [
+        -40.0,
+        10.0
+      ],
+      "r_arm": [
+        -34.0,
+        12.0
+      ],
+      "l_leg": [
+        94.0,
+        -2.0
+      ],
+      "r_leg": [
+        88.0,
+        2.0
+      ],
+      "body": 8.0,
+      "y": 132,
+      "side": true,
+      "face": {
+        "eyes": "open",
+        "brows": "none",
+        "mouth": "smile"
+      }
+    },
+    "relax": {
+      "l_arm": [
+        -50.0,
+        24.0
+      ],
+      "r_arm": [
+        -34.0,
+        16.0
+      ],
+      "l_leg": [
+        93.0,
+        -87.0
+      ],
+      "r_leg": [
+        85.0,
+        -85.0
+      ],
+      "body": 12.0,
+      "y": 67.6,
+      "side": true,
+      "face": {
+        "eyes": "closed",
+        "brows": "none",
+        "mouth": "smile"
+      }
+    },
+    "kneel": {
+      "l_arm": [
+        -10.0,
+        8.0
+      ],
+      "r_arm": [
+        10.0,
+        -4.0
+      ],
+      "l_leg": [
+        90.0,
+        -90.0
+      ],
+      "r_leg": [
+        0.0,
+        -90.0
+      ],
+      "y": 70.0,
+      "side": true,
+      "face": {
+        "eyes": "open",
+        "brows": "none",
+        "mouth": "smile"
+      }
+    },
+    "lie": {
+      "l_arm": [
+        -172.0,
+        -6.0
+      ],
+      "r_arm": [
+        -166.0,
+        -10.0
+      ],
+      "l_leg": [
+        90.0,
+        -2.0
+      ],
+      "r_leg": [
+        93.0,
+        -3.0
+      ],
+      "body": 90.0,
+      "head": -45.0,
+      "y": 132,
+      "side": true,
+      "face": {
+        "eyes": "closed",
+        "brows": "none",
+        "mouth": "flat"
+      }
+    },
+    "lie_front": {
+      "l_arm": [
+        170.0,
+        8.0
+      ],
+      "r_arm": [
+        164.0,
+        10.0
+      ],
+      "l_leg": [
+        -90.0,
+        -2.0
+      ],
+      "r_leg": [
+        -87.0,
+        -2.0
+      ],
+      "body": -90.0,
+      "head": 35.0,
+      "y": 132,
+      "side": true,
+      "face": {
+        "eyes": "open",
+        "brows": "worried",
+        "mouth": "flat"
+      }
+    },
+    "point_up": {
+      "l_arm": [
+        -10.0,
+        4.0
+      ],
+      "r_arm": [
+        148.0,
+        14.0
+      ],
+      "l_leg": [
+        -4.0,
+        2.0
+      ],
+      "r_leg": [
+        4.0,
+        -2.0
+      ],
+      "head": 10.0,
+      "side": true,
+      "face": {
+        "eyes": "open",
+        "brows": "up",
+        "mouth": "grin"
+      }
+    },
+    "cheer": {
+      "l_arm": [
+        -142.0,
+        -5.0
+      ],
+      "r_arm": [
+        138.0,
+        5.0
+      ],
+      "l_leg": [
+        -8.0,
+        4.0
+      ],
+      "r_leg": [
+        8.0,
+        -4.0
+      ],
+      "body": 2.0,
+      "head": 7.0,
+      "side": true,
+      "face": {
+        "eyes": "happy",
+        "brows": "up",
+        "mouth": "big"
+      }
+    },
+    "hands_hips": {
+      "l_arm": [
+        -51.0,
+        96.0
+      ],
+      "r_arm": [
+        49.0,
+        -96.0
+      ],
+      "l_leg": [
+        -10.0,
+        6.0
+      ],
+      "r_leg": [
+        10.0,
+        -6.0
+      ],
+      "body": 1.0,
+      "side": true,
+      "face": {
+        "eyes": "open",
+        "brows": "none",
+        "mouth": "smirk"
+      }
+    },
+    "arms_cross": {
+      "l_arm": [
+        18.0,
+        78.0
+      ],
+      "r_arm": [
+        26.0,
+        78.0
+      ],
+      "l_leg": [
+        -6.0,
+        4.0
+      ],
+      "r_leg": [
+        6.0,
+        -4.0
+      ],
+      "head": 2.0,
+      "side": true,
+      "face": {
+        "eyes": "open",
+        "brows": "angry",
+        "mouth": "flat"
+      }
+    },
+    "surprise": {
+      "l_arm": [
+        -124.0,
+        20.0
+      ],
+      "r_arm": [
+        116.0,
+        -20.0
+      ],
+      "l_leg": [
+        -10.0,
+        6.0
+      ],
+      "r_leg": [
+        10.0,
+        -6.0
+      ],
+      "body": 4.0,
+      "head": 8.0,
+      "side": true,
+      "face": {
+        "eyes": "wide",
+        "brows": "up",
+        "mouth": "o"
+      }
+    },
+    "scared": {
+      "l_arm": [
+        40.0,
+        120.0
+      ],
+      "r_arm": [
+        60.0,
+        116.0
+      ],
+      "l_leg": [
+        -14.0,
+        4.0
+      ],
+      "r_leg": [
+        10.0,
+        -10.0
+      ],
+      "body": 10.0,
+      "head": 5.0,
+      "side": true,
+      "face": {
+        "eyes": "wide",
+        "brows": "worried",
+        "mouth": "wavy"
+      }
+    },
+    "thumbs_up": {
+      "l_arm": [
+        -10.0,
+        4.0
+      ],
+      "r_arm": [
+        50.0,
+        110.0
+      ],
+      "l_leg": [
+        -4.0,
+        2.0
+      ],
+      "r_leg": [
+        4.0,
+        -2.0
+      ],
+      "head": 4.0,
+      "side": true,
+      "face": {
+        "eyes": "wink",
+        "brows": "up",
+        "mouth": "grin"
+      }
+    },
+    "salute": {
+      "l_arm": [
+        -10.0,
+        4.0
+      ],
+      "r_arm": [
+        108.0,
+        128.0
+      ],
+      "l_leg": [
+        -6.0,
+        4.0
+      ],
+      "r_leg": [
+        6.0,
+        -4.0
+      ],
+      "side": true,
+      "face": {
+        "eyes": "open",
+        "brows": "none",
+        "mouth": "flat"
+      }
+    },
+    "bow": {
+      "l_arm": [
+        56.0,
+        4.0
+      ],
+      "r_arm": [
+        68.0,
+        -4.0
+      ],
+      "l_leg": [
+        -2.0,
+        0.0
+      ],
+      "r_leg": [
+        2.0,
+        0.0
+      ],
+      "body": -62.0,
+      "head": 3.0,
+      "side": true,
+      "face": {
+        "eyes": "closed",
+        "brows": "none",
+        "mouth": "smile"
+      }
+    },
+    "push": {
+      "l_arm": [
+        136.0,
+        -8.0
+      ],
+      "r_arm": [
+        130.0,
+        -6.0
+      ],
+      "l_leg": [
+        32.0,
+        -24.0
+      ],
+      "r_leg": [
+        -38.0,
+        10.0
+      ],
+      "body": -32.0,
+      "head": -2.0,
+      "y": 11.9,
+      "side": true,
+      "face": {
+        "eyes": "closed",
+        "brows": "angry",
+        "mouth": "teeth"
+      }
+    },
+    "pull": {
+      "l_arm": [
+        54.0,
+        12.0
+      ],
+      "r_arm": [
+        60.0,
+        10.0
+      ],
+      "l_leg": [
+        38.0,
+        -18.0
+      ],
+      "r_leg": [
+        -6.0,
+        0.0
+      ],
+      "body": 22.0,
+      "head": -23.0,
+      "side": true,
+      "face": {
+        "eyes": "closed",
+        "brows": "angry",
+        "mouth": "teeth"
+      }
+    },
+    "carry": {
+      "l_arm": [
+        26.0,
+        80.0
+      ],
+      "r_arm": [
+        38.0,
+        74.0
+      ],
+      "l_leg": [
+        -4.0,
+        2.0
+      ],
+      "r_leg": [
+        4.0,
+        -2.0
+      ],
+      "body": 2.0,
+      "head": -1.0,
+      "side": true,
+      "face": {
+        "eyes": "open",
+        "brows": "none",
+        "mouth": "smile"
+      }
+    },
+    "lift": {
+      "l_arm": [
+        -154.0,
+        -18.0
+      ],
+      "r_arm": [
+        150.0,
+        18.0
+      ],
+      "l_leg": [
+        -10.0,
+        6.0
+      ],
+      "r_leg": [
+        10.0,
+        -6.0
+      ],
+      "body": 2.0,
+      "head": 7.0,
+      "side": true,
+      "face": {
+        "eyes": "closed",
+        "brows": "angry",
+        "mouth": "teeth"
+      }
+    },
+    "windup": {
+      "l_arm": [
+        40.0,
+        20.0
+      ],
+      "r_arm": [
+        -130.0,
+        20.0
+      ],
+      "l_leg": [
+        20.0,
+        -20.0
+      ],
+      "r_leg": [
+        -20.0,
+        10.0
+      ],
+      "body": 10.0,
+      "head": -13.0,
+      "y": 4.5,
+      "side": true,
+      "face": {
+        "eyes": "open",
+        "brows": "angry",
+        "mouth": "flat"
+      }
+    },
+    "throw": {
+      "l_arm": [
+        -26.0,
+        20.0
+      ],
+      "r_arm": [
+        110.0,
+        -10.0
+      ],
+      "l_leg": [
+        26.0,
+        -22.0
+      ],
+      "r_leg": [
+        -26.0,
+        6.0
+      ],
+      "body": -14.0,
+      "head": 15.0,
+      "y": 7.7,
+      "side": true,
+      "face": {
+        "eyes": "open",
+        "brows": "up",
+        "mouth": "o"
+      }
+    },
+    "balance": {
+      "l_arm": [
+        -92.0,
+        6.0
+      ],
+      "r_arm": [
+        92.0,
+        -6.0
+      ],
+      "l_leg": [
+        -2.0,
+        0.0
+      ],
+      "r_leg": [
+        2.0,
+        0.0
+      ],
+      "head": 2.0,
+      "side": true,
+      "face": {
+        "eyes": "open",
+        "brows": "worried",
+        "mouth": "wavy"
+      }
+    },
+    "stumble": {
+      "l_arm": [
+        170.0,
+        -30.0
+      ],
+      "r_arm": [
+        -110.0,
+        30.0
+      ],
+      "l_leg": [
+        20.0,
+        -30.0
+      ],
+      "r_leg": [
+        -40.0,
+        10.0
+      ],
+      "body": -40.0,
+      "y": 5.5,
+      "side": true,
+      "face": {
+        "eyes": "wide",
+        "brows": "worried",
+        "mouth": "o"
+      }
+    },
+    "explain_open": {
+      "l_arm": [
+        -8.0,
+        38.0
+      ],
+      "r_arm": [
+        34.0,
+        102.0
+      ],
+      "l_leg": [
+        -4.0,
+        2.0
+      ],
+      "r_leg": [
+        4.0,
+        -2.0
+      ],
+      "head": -2.0,
+      "side": true,
+      "face": {
+        "eyes": "open",
+        "brows": "up",
+        "mouth": "smile"
+      }
+    }
+  },
+  "moves": {
+    "walk": {
+      "base": "stand",
+      "loop": true,
+      "duration": 0.7,
+      "keys": [
+        {
+          "t": 0,
+          "l_arm": [
+            22,
+            15
+          ],
+          "r_arm": [
+            -22,
+            15
+          ],
+          "l_leg": [
+            -26,
+            0
+          ],
+          "r_leg": [
+            26,
+            30
+          ],
+          "y": 0
+        },
+        {
+          "t": 0.175,
+          "l_arm": [
+            0,
+            10
+          ],
+          "r_arm": [
+            0,
+            10
+          ],
+          "l_leg": [
+            0,
+            30
+          ],
+          "r_leg": [
+            0,
+            0
+          ],
+          "y": -6
+        },
+        {
+          "t": 0.35,
+          "l_arm": [
+            -22,
+            15
+          ],
+          "r_arm": [
+            22,
+            15
+          ],
+          "l_leg": [
+            26,
+            30
+          ],
+          "r_leg": [
+            -26,
+            0
+          ],
+          "y": 0
+        },
+        {
+          "t": 0.525,
+          "l_arm": [
+            0,
+            10
+          ],
+          "r_arm": [
+            0,
+            10
+          ],
+          "l_leg": [
+            0,
+            0
+          ],
+          "r_leg": [
+            0,
+            30
+          ],
+          "y": -6
+        }
+      ],
+      "face": {
+        "eyes": "open",
+        "brows": "none",
+        "mouth": "smile"
+      }
+    },
+    "run": {
+      "base": "stand",
+      "loop": true,
+      "duration": 0.45,
+      "body": -12,
+      "keys": [
+        {
+          "t": 0,
+          "l_arm": [
+            45,
+            80
+          ],
+          "r_arm": [
+            -45,
+            80
+          ],
+          "l_leg": [
+            -40,
+            10
+          ],
+          "r_leg": [
+            45,
+            70
+          ],
+          "y": 0
+        },
+        {
+          "t": 0.225,
+          "l_arm": [
+            -45,
+            80
+          ],
+          "r_arm": [
+            45,
+            80
+          ],
+          "l_leg": [
+            45,
+            70
+          ],
+          "r_leg": [
+            -40,
+            10
+          ],
+          "y": 0
+        },
+        {
+          "t": 0.11,
+          "y": -14
+        },
+        {
+          "t": 0.335,
+          "y": -14
+        }
+      ],
+      "face": {
+        "eyes": "open",
+        "brows": "up",
+        "mouth": "big"
+      }
+    },
+    "climb": {
+      "base": "stand",
+      "loop": true,
+      "duration": 0.9,
+      "body": -6,
+      "keys": [
+        {
+          "t": 0,
+          "l_arm": [
+            -150,
+            20
+          ],
+          "r_arm": [
+            120,
+            -10
+          ],
+          "l_leg": [
+            10,
+            0
+          ],
+          "r_leg": [
+            55,
+            -80
+          ]
+        },
+        {
+          "t": 0.45,
+          "l_arm": [
+            -120,
+            10
+          ],
+          "r_arm": [
+            150,
+            -20
+          ],
+          "l_leg": [
+            55,
+            -80
+          ],
+          "r_leg": [
+            10,
+            0
+          ]
+        }
+      ],
+      "face": {
+        "eyes": "open",
+        "brows": "worried",
+        "mouth": "flat"
+      }
+    },
+    "celebrate": {
+      "base": "happy",
+      "loop": true,
+      "duration": 0.5,
+      "keys": [
+        {
+          "t": 0,
+          "l_arm": [
+            -138,
+            -14
+          ],
+          "r_arm": [
+            138,
+            14
+          ],
+          "l_leg": [
+            -8,
+            0
+          ],
+          "r_leg": [
+            8,
+            0
+          ],
+          "y": 0
+        },
+        {
+          "t": 0.25,
+          "l_arm": [
+            -115,
+            -32
+          ],
+          "r_arm": [
+            115,
+            32
+          ],
+          "l_leg": [
+            -14,
+            30
+          ],
+          "r_leg": [
+            14,
+            -30
+          ],
+          "y": -40
+        }
+      ],
+      "face": {
+        "eyes": "happy",
+        "brows": "up",
+        "mouth": "big"
+      }
+    },
+    "wave": {
+      "base": "stand",
+      "loop": true,
+      "duration": 0.8,
+      "keys": [
+        {
+          "t": 0,
+          "r_arm": [
+            140,
+            20
+          ]
+        },
+        {
+          "t": 0.4,
+          "r_arm": [
+            140,
+            -40
+          ]
+        }
+      ],
+      "face": {
+        "eyes": "happy",
+        "brows": "up",
+        "mouth": "grin"
+      }
+    },
+    "dance": {
+      "base": "stand",
+      "loop": true,
+      "duration": 1.0,
+      "keys": [
+        {
+          "t": 0,
+          "l_arm": [
+            -150,
+            -20
+          ],
+          "r_arm": [
+            40,
+            90
+          ],
+          "l_leg": [
+            -14,
+            0
+          ],
+          "r_leg": [
+            30,
+            -30
+          ],
+          "body": -8,
+          "y": 0
+        },
+        {
+          "t": 0.25,
+          "y": -14
+        },
+        {
+          "t": 0.5,
+          "l_arm": [
+            -40,
+            -90
+          ],
+          "r_arm": [
+            150,
+            20
+          ],
+          "l_leg": [
+            -30,
+            30
+          ],
+          "r_leg": [
+            14,
+            0
+          ],
+          "body": 8,
+          "y": 0
+        },
+        {
+          "t": 0.75,
+          "y": -14
+        }
+      ],
+      "face": {
+        "eyes": "happy",
+        "brows": "up",
+        "mouth": "big"
+      }
+    },
+    "jump": {
+      "base": "happy",
+      "loop": true,
+      "duration": 0.7,
+      "keys": [
+        {
+          "t": 0,
+          "y": 8,
+          "l_leg": [
+            -10,
+            20
+          ],
+          "r_leg": [
+            10,
+            -20
+          ]
+        },
+        {
+          "t": 0.35,
+          "y": -60,
+          "l_leg": [
+            -20,
+            0
+          ],
+          "r_leg": [
+            20,
+            0
+          ]
+        }
+      ],
+      "face": {
+        "eyes": "happy",
+        "brows": "up",
+        "mouth": "big"
+      }
+    },
+    "explain": {
+      "base": "present",
+      "loop": true,
+      "duration": 1.6,
+      "keys": [
+        {
+          "t": 0,
+          "r_arm": [
+            60,
+            40
+          ],
+          "l_arm": [
+            -30,
+            50
+          ]
+        },
+        {
+          "t": 0.5,
+          "r_arm": [
+            85,
+            10
+          ],
+          "l_arm": [
+            -20,
+            30
+          ]
+        },
+        {
+          "t": 1.0,
+          "r_arm": [
+            50,
+            60
+          ],
+          "l_arm": [
+            -45,
+            70
+          ]
+        }
+      ],
+      "face": {
+        "eyes": "open",
+        "brows": "up",
+        "mouth": "smile"
+      }
+    },
+    "type": {
+      "base": "sit",
+      "loop": true,
+      "duration": 0.3,
+      "keys": [
+        {
+          "t": 0,
+          "l_arm": [
+            -40,
+            110
+          ],
+          "r_arm": [
+            40,
+            -95
+          ]
+        },
+        {
+          "t": 0.15,
+          "l_arm": [
+            -40,
+            95
+          ],
+          "r_arm": [
+            40,
+            -110
+          ]
+        }
+      ],
+      "face": {
+        "eyes": "open",
+        "brows": "worried",
+        "mouth": "flat"
+      }
+    },
+    "nod": {
+      "base": "stand",
+      "loop": true,
+      "duration": 0.7,
+      "keys": [
+        {
+          "t": 0,
+          "head": -4
+        },
+        {
+          "t": 0.35,
+          "head": 12
+        }
+      ],
+      "face": {
+        "eyes": "happy",
+        "brows": "none",
+        "mouth": "smile"
+      }
+    },
+    "no": {
+      "base": "stand",
+      "loop": true,
+      "duration": 0.6,
+      "keys": [
+        {
+          "t": 0,
+          "head": -12,
+          "body": -2
+        },
+        {
+          "t": 0.3,
+          "head": 12,
+          "body": 2
+        }
+      ],
+      "face": {
+        "eyes": "open",
+        "brows": "angry",
+        "mouth": "frown"
+      }
+    },
+    "cry": {
+      "base": "sad",
+      "loop": true,
+      "duration": 0.6,
+      "keys": [
+        {
+          "t": 0,
+          "y": 6,
+          "head": 14
+        },
+        {
+          "t": 0.3,
+          "y": 9,
+          "head": 18
+        }
+      ],
+      "face": {
+        "eyes": "closed",
+        "brows": "sad",
+        "mouth": "wavy"
+      }
+    },
+    "jumping_jacks": {
+      "base": "stand",
+      "loop": true,
+      "duration": 0.6,
+      "keys": [
+        {
+          "l_arm": [
+            -14.0,
+            10.0
+          ],
+          "r_arm": [
+            14.0,
+            -10.0
+          ],
+          "l_leg": [
+            -6.0,
+            0.0
+          ],
+          "r_leg": [
+            6.0,
+            0.0
+          ],
+          "y": 0.0,
+          "t": 0
+        },
+        {
+          "l_arm": [
+            -130.0,
+            -20.0
+          ],
+          "r_arm": [
+            130.0,
+            20.0
+          ],
+          "l_leg": [
+            -35.0,
+            10.0
+          ],
+          "r_leg": [
+            35.0,
+            -10.0
+          ],
+          "y": -15.0,
+          "t": 0.3
+        }
+      ],
+      "face": {
+        "eyes": "happy",
+        "brows": "up",
+        "mouth": "grin"
+      }
+    },
+    "sneak": {
+      "base": "stand",
+      "loop": true,
+      "duration": 1.1,
+      "face": {
+        "eyes": "open",
+        "brows": "worried",
+        "mouth": "flat"
+      },
+      "keys": [
+        {
+          "t": 0,
+          "l_arm": [
+            78.0,
+            70.0
+          ],
+          "r_arm": [
+            98.0,
+            60.0
+          ],
+          "l_leg": [
+            50.0,
+            -70.0
+          ],
+          "r_leg": [
+            -30.0,
+            -10.0
+          ],
+          "body": -28.0,
+          "y": 26.3
+        },
+        {
+          "t": 0.55,
+          "l_arm": [
+            88.0,
+            70.0
+          ],
+          "r_arm": [
+            88.0,
+            60.0
+          ],
+          "l_leg": [
+            -20.0,
+            -20.0
+          ],
+          "r_leg": [
+            50.0,
+            -70.0
+          ],
+          "body": -28.0,
+          "y": 20.8
+        }
+      ],
+      "side": true
+    },
+    "climb_ladder": {
+      "base": "stand",
+      "loop": true,
+      "duration": 1.0,
+      "face": {
+        "eyes": "open",
+        "brows": "none",
+        "mouth": "flat"
+      },
+      "keys": [
+        {
+          "t": 0,
+          "l_arm": [
+            -172.0,
+            -18.0
+          ],
+          "r_arm": [
+            150.0,
+            8.0
+          ],
+          "l_leg": [
+            52.0,
+            -74.0
+          ],
+          "r_leg": [
+            -6.0,
+            2.0
+          ],
+          "body": -2.0,
+          "y": 0
+        },
+        {
+          "t": 0.5,
+          "l_arm": [
+            150.0,
+            8.0
+          ],
+          "r_arm": [
+            -172.0,
+            -18.0
+          ],
+          "l_leg": [
+            -6.0,
+            2.0
+          ],
+          "r_leg": [
+            52.0,
+            -74.0
+          ],
+          "body": -2.0,
+          "y": 0
+        }
+      ],
+      "side": true
+    }
+  },
+  "parts": {
+    "scarf": "gold scarf with a tail that flutters",
+    "hood": "hood around the head",
+    "hoodie": "hoodie body",
+    "dress": "dress",
+    "ponytail": "ponytail",
+    "bow": "hair bow",
+    "long_hair": "long hair",
+    "spiky_hair": "spiky hair",
+    "side_part": "neat side-parted hair",
+    "tufts": "side hair tufts (professor)",
+    "glasses": "round glasses",
+    "bowtie": "bow tie",
+    "tie": "necktie",
+    "coat": "white lab coat",
+    "briefcase": "briefcase in the left hand",
+    "cap": "cap with a brim",
+    "flatcap": "flat cap",
+    "beard": "white beard",
+    "mustache": "mustache",
+    "cane": "walking cane",
+    "headphones": "headphones",
+    "headband": "sports headband",
+    "backpack": "backpack",
+    "crown": "crown",
+    "blush": "pink cheeks",
+    "lashes": "eyelashes",
+    "helmet": "ancient bronze helmet with a red crest",
+    "straw_hat": "wide straw hat with a coloured band",
+    "explorer_hat": "brown explorer / safari hat",
+    "beanie": "beanie (wool hat)",
+    "hardhat": "builder's hard hat",
+    "tophat": "black top hat",
+    "grad_cap": "graduation cap",
+    "chef_hat": "white chef hat",
+    "beret": "beret",
+    "party_hat": "party hat",
+    "bob_hair": "bob haircut",
+    "bun": "hair bun",
+    "antenna": "robot antenna",
+    "shirt": "coloured shirt with short sleeves (accent colour)",
+    "shorts": "dark shorts"
+  },
+  "avatars": {
+    "classic": {
+      "description": "friendly stick man with a gold scarf (narrator)",
+      "parts": [
+        "scarf"
+      ]
+    },
+    "hoodie": {
+      "description": "young person in a coloured hoodie (tech, discipline)",
+      "parts": [
+        "hood",
+        "hoodie"
+      ]
+    },
+    "girl": {
+      "description": "girl with a ponytail, bow and dress (lifestyle, stories)",
+      "parts": [
+        "ponytail",
+        "bow",
+        "dress",
+        "lashes",
+        "blush"
+      ]
+    },
+    "professor": {
+      "description": "professor with round glasses and a bow tie (concepts, science)",
+      "parts": [
+        "glasses",
+        "bowtie",
+        "tufts"
+      ]
+    },
+    "business": {
+      "description": "business person with a tie, neat hair and a briefcase (money, office)",
+      "parts": [
+        "side_part",
+        "tie",
+        "briefcase"
+      ]
+    },
+    "kid": {
+      "description": "small kid with a cap (school, environment, future)",
+      "parts": [
+        "cap",
+        "blush"
+      ],
+      "scale": 0.8,
+      "head": 1.15
+    },
+    "elder": {
+      "description": "old storyteller with a white beard, flat cap and cane (history, stories)",
+      "parts": [
+        "flatcap",
+        "beard",
+        "cane"
+      ],
+      "hunch": 7
+    },
+    "silhouette": {
+      "description": "solid dark silhouette with a glowing rim (cinematic, motivation)",
+      "parts": [],
+      "silhouette": true
+    },
+    "doctor": {
+      "description": "doctor / scientist in a white lab coat with glasses (health, science)",
+      "parts": [
+        "coat",
+        "glasses",
+        "side_part"
+      ]
+    },
+    "student": {
+      "description": "student with spiky hair and a backpack (study, exams, school life)",
+      "parts": [
+        "spiky_hair",
+        "backpack"
+      ]
+    },
+    "gamer": {
+      "description": "gamer with headphones and a hoodie (internet, games, social media)",
+      "parts": [
+        "headphones",
+        "hoodie",
+        "spiky_hair"
+      ]
+    },
+    "athlete": {
+      "description": "athlete with a sports headband (fitness, discipline, sport)",
+      "parts": [
+        "headband"
+      ]
+    },
+    "woman": {
+      "description": "woman with long hair (stories, lifestyle, careers)",
+      "parts": [
+        "long_hair",
+        "lashes"
+      ]
+    },
+    "king": {
+      "description": "king with a crown and beard (history, power, empires)",
+      "parts": [
+        "crown",
+        "beard"
+      ]
+    },
+    "minimal": {
+      "description": "modern minimal stick man: clean white rounded body and a gold headband (explainers, tech, motivation)",
+      "parts": [
+        "headband"
+      ],
+      "accent": "#F2B33D",
+      "torso": "box"
+    },
+    "warrior": {
+      "description": "ancient warrior: bronze crested helmet, breastplate, red cape, shield, spear and sandals (history, battles, empires, courage)",
+      "parts": [
+        "helmet"
+      ],
+      "accent": "#C0262D",
+      "costume": {
+        "top": {
+          "shape": "armor",
+          "color": "#C9973F",
+          "strips": "#B3261E",
+          "belt": "#6B3F1D"
+        },
+        "cape": {
+          "color": "#B3261E"
+        },
+        "shoes": {
+          "kind": "sandals",
+          "color": "#7A4A22"
+        },
+        "wrist": "#7A4A22",
+        "hold_r": "spear",
+        "hold_l": "shield",
+        "shield": "#C08A2E",
+        "crest": "#C0262D"
+      },
+      "group": "Historical, cultural & fantasy"
+    },
+    "villager": {
+      "description": "village / rural person: straw hat, cream short-sleeve shirt, blue checked lungi, sandals and a walking stick (villages, farming, India, simple life)",
+      "parts": [
+        "straw_hat"
+      ],
+      "accent": "#2F6FA3",
+      "costume": {
+        "top": {
+          "shape": "shirt",
+          "color": "#F1E9D6",
+          "sleeve": 0.45,
+          "collar": true,
+          "buttons": true,
+          "pocket": true
+        },
+        "bottom": {
+          "kind": "lungi",
+          "color": "#3E7CC4",
+          "color2": "#9CC4EE",
+          "color3": "#1F4E86",
+          "pattern": "check",
+          "len": 0.82
+        },
+        "shoes": {
+          "kind": "sandals",
+          "color": "#7A4A22"
+        },
+        "hold_l": "staff",
+        "band": "#2F6FA3"
+      }
+    },
+    "tribal": {
+      "description": "hand-drawn sketch hunter: rough pencil lines, ragged one-shoulder orange tunic, spear (stone age, early humans, tribes, survival)",
+      "parts": [],
+      "accent": "#E08A2E",
+      "render": "sketch",
+      "costume": {
+        "top": {
+          "shape": "tunic",
+          "color": "#E08A2E",
+          "oneShoulder": true,
+          "ragged": true,
+          "length": 150
+        },
+        "hold_r": "spear"
+      }
+    },
+    "adventurer": {
+      "description": "adventurer in real cloth: tan tunic with belt and pouch, red scarf and cape, shorts, leather boots (journeys, quests, medieval, stories)",
+      "parts": [
+        "scarf"
+      ],
+      "accent": "#B3261E",
+      "render": "shaded",
+      "costume": {
+        "top": {
+          "shape": "tunic",
+          "color": "#C9A27A",
+          "sleeve": 0.5,
+          "length": 128,
+          "belt": "#6B3F1D",
+          "pouch": true
+        },
+        "bottom": {
+          "kind": "shorts",
+          "color": "#6E5A45",
+          "len": 0.5
+        },
+        "shoes": {
+          "kind": "boots",
+          "color": "#7A4A22"
+        },
+        "cape": {
+          "color": "#A8322D"
+        },
+        "wrist": "#7A4A22"
+      }
+    },
+    "mascot": {
+      "description": "3D cartoon mascot: soft shaded glossy white body, gold headband and a backpack (tech, apps, friendly explainers)",
+      "parts": [
+        "headband",
+        "backpack"
+      ],
+      "accent": "#F2B33D",
+      "render": "shaded",
+      "torso": "box",
+      "costume": {
+        "straps": "#8B5A2B"
+      }
+    },
+    "explorer": {
+      "description": "cartoon comic explorer: brown explorer hat, shoulder bag and a map in hand (travel, geography, discovery, maps)",
+      "parts": [
+        "explorer_hat"
+      ],
+      "accent": "#8B5A2B",
+      "costume": {
+        "satchel": "#8B5A2B",
+        "hold_r": "map",
+        "shoes": {
+          "kind": "boots",
+          "color": "#6B4A2B"
+        }
+      },
+      "group": "Profession, lifestyle & special"
+    },
+    "chibi": {
+      "description": "cute chibi: big round head, rosy cheeks, yellow hoodie, backpack and sneakers (kids, school, cute stories, learning)",
+      "parts": [
+        "blush",
+        "backpack"
+      ],
+      "accent": "#2B2B30",
+      "head": 1.32,
+      "scale": 0.92,
+      "costume": {
+        "top": {
+          "shape": "hoodie",
+          "color": "#F2B33D",
+          "sleeve": 0.92,
+          "hood": false
+        },
+        "bottom": {
+          "kind": "pants",
+          "color": "#26262B",
+          "len": 0.88
+        },
+        "shoes": {
+          "kind": "sneakers",
+          "color": "#26262B"
+        },
+        "straps": "#26262B"
+      }
+    },
+    "casual": {
+      "description": "modern casual: black cap, blue hoodie, jeans, sneakers and a backpack (students, young people, everyday life, tech)",
+      "parts": [
+        "cap",
+        "backpack"
+      ],
+      "accent": "#1F1F23",
+      "costume": {
+        "top": {
+          "shape": "hoodie",
+          "color": "#2F7FD0",
+          "sleeve": 0.95,
+          "hood": false
+        },
+        "bottom": {
+          "kind": "pants",
+          "color": "#2D4E7A",
+          "len": 0.9
+        },
+        "shoes": {
+          "kind": "sneakers",
+          "color": "#E4E4E4"
+        },
+        "straps": "#1F1F23"
+      }
+    },
+    "executive": {
+      "description": "business executive: black suit, white shirt, red tie, glasses, briefcase and formal shoes (business, money, office, companies)",
+      "parts": [
+        "glasses"
+      ],
+      "accent": "#C0262D",
+      "costume": {
+        "top": {
+          "shape": "suit",
+          "color": "#1F2228",
+          "shirt": "#FFFFFF",
+          "tie": "#C0262D",
+          "sleeve": 0.95
+        },
+        "bottom": {
+          "kind": "pants",
+          "color": "#1F2228",
+          "len": 0.92
+        },
+        "shoes": {
+          "kind": "shoe",
+          "color": "#141414"
+        },
+        "hold_l": "briefcase",
+        "case": "#7A4A22"
+      }
+    },
+    "zeke": {
+      "description": "young guy in a red beanie, yellow shirt and dark shorts (Stickman Kino character)",
+      "parts": [
+        "beanie",
+        "shirt",
+        "shorts"
+      ],
+      "accent": "#FFC531",
+      "hat": "#E63946"
+    },
+    "office": {
+      "description": "office worker in a blue shirt and red tie (Stickman Kino character)",
+      "parts": [
+        "shirt",
+        "tie"
+      ],
+      "accent": "#3B6FB6"
+    },
+    "exec": {
+      "description": "executive in a dark shirt, gold tie and glasses (Stickman Kino character)",
+      "parts": [
+        "shirt",
+        "tie",
+        "glasses"
+      ],
+      "accent": "#2B2D42"
+    },
+    "builder": {
+      "description": "builder in a yellow hard hat and orange shirt (Stickman Kino character)",
+      "parts": [
+        "hardhat",
+        "shirt"
+      ],
+      "accent": "#FB8500",
+      "hat": "#FFB703"
+    },
+    "scientist": {
+      "description": "scientist with spiky hair, glasses and a white shirt (Stickman Kino character)",
+      "parts": [
+        "spiky_hair",
+        "glasses",
+        "shirt"
+      ],
+      "accent": "#FFFFFF"
+    },
+    "grad": {
+      "description": "graduate in a graduation cap (Stickman Kino character)",
+      "parts": [
+        "grad_cap"
+      ]
+    },
+    "chef": {
+      "description": "chef in a white chef hat and white shirt (Stickman Kino character)",
+      "parts": [
+        "chef_hat",
+        "shirt"
+      ],
+      "accent": "#FFFFFF"
+    },
+    "lady": {
+      "description": "woman with a hair bun in a red dress (Stickman Kino character)",
+      "parts": [
+        "bun",
+        "dress"
+      ],
+      "accent": "#E63946"
+    },
+    "robot": {
+      "description": "robot with a square head and an antenna (Stickman Kino character)",
+      "parts": [
+        "antenna"
+      ],
+      "head_shape": "square",
+      "hat": "#E63946"
+    },
+    "agent": {
+      "description": "blue robot agent (AI, software, automation) (Stickman Kino character)",
+      "parts": [
+        "antenna"
+      ],
+      "head_shape": "square",
+      "ink": "#1D7FE0",
+      "hat": "#1D7FE0"
+    },
+    "ink_head": {
+      "description": "plain stick man with a solid black head (mysterious, anonymous) (Stickman Kino character)",
+      "parts": [],
+      "head_shape": "filled"
+    },
+    "basic_stick": {
+      "description": "plain white stick man with an orange headband (any explainer)",
+      "name": "Basic Stickman",
+      "group": "Modern & daily life",
+      "parts": [
+        "headband"
+      ],
+      "accent": "#F2A33A"
+    },
+    "tshirt": {
+      "description": "young man in a red T-shirt and blue jeans (everyday life, youth)",
+      "name": "T-Shirt",
+      "group": "Modern & daily life",
+      "parts": [
+        "messy_hair"
+      ],
+      "accent": "#D62828",
+      "costume": {
+        "top": {
+          "shape": "shirt",
+          "color": "#D62828",
+          "sleeve": 0.4
+        },
+        "bottom": {
+          "kind": "pants",
+          "color": "#3A5FA0"
+        },
+        "shoes": {
+          "kind": "sneakers",
+          "color": "#F4F1EA"
+        }
+      }
+    },
+    "hoodie_blue": {
+      "description": "person in a blue hoodie with the hood up and jeans (tech, students, internet)",
+      "name": "Hoodie",
+      "group": "Modern & daily life",
+      "parts": [],
+      "accent": "#2F7FD0",
+      "costume": {
+        "top": {
+          "shape": "hoodie",
+          "color": "#2F7FD0",
+          "sleeve": 0.95,
+          "hood": true
+        },
+        "bottom": {
+          "kind": "pants",
+          "color": "#2B3A55"
+        },
+        "shoes": {
+          "kind": "sneakers",
+          "color": "#F4F1EA"
+        }
+      }
+    },
+    "cap_style": {
+      "description": "teen in a black cap backwards, white shirt, orange jacket and jeans (street, youth, trends)",
+      "name": "Cap Style",
+      "group": "Modern & daily life",
+      "parts": [
+        "cap"
+      ],
+      "accent": "#1F1F23",
+      "costume": {
+        "top": {
+          "shape": "suit",
+          "color": "#C77B2E",
+          "shirt": "#F4F1EA",
+          "tie": "#F4F1EA",
+          "sleeve": 0.95,
+          "length": 110
+        },
+        "bottom": {
+          "kind": "pants",
+          "color": "#2B3A55"
+        },
+        "shoes": {
+          "kind": "sneakers",
+          "color": "#F4F1EA"
+        }
+      }
+    },
+    "jacket": {
+      "description": "young man in a yellow puffer jacket and jeans (winter, travel, youth)",
+      "name": "Jacket",
+      "group": "Modern & daily life",
+      "parts": [
+        "messy_hair"
+      ],
+      "accent": "#F2B33D",
+      "costume": {
+        "top": {
+          "shape": "puffer",
+          "color": "#F2B33D",
+          "sleeve": 0.95
+        },
+        "bottom": {
+          "kind": "pants",
+          "color": "#2B3A55"
+        },
+        "shoes": {
+          "kind": "sneakers",
+          "color": "#F4F1EA"
+        }
+      }
+    },
+    "school_uniform": {
+      "description": "school boy: white shirt, blue tie, grey trousers, green backpack (school, exams, children)",
+      "name": "School Uniform",
+      "group": "Modern & daily life",
+      "parts": [
+        "messy_hair",
+        "backpack"
+      ],
+      "accent": "#2E7D32",
+      "costume": {
+        "top": {
+          "shape": "suit",
+          "color": "#F4F1EA",
+          "shirt": "#F4F1EA",
+          "tie": "#2F5FA8",
+          "sleeve": 0.45,
+          "length": 110
+        },
+        "bottom": {
+          "kind": "pants",
+          "color": "#6B6F78"
+        },
+        "shoes": {
+          "kind": "shoe",
+          "color": "#2A2420"
+        }
+      }
+    },
+    "college_student": {
+      "description": "college student: green jacket, books, backpack (college, study, careers)",
+      "name": "College Student",
+      "group": "Modern & daily life",
+      "parts": [
+        "messy_hair",
+        "backpack"
+      ],
+      "accent": "#3E7D3A",
+      "costume": {
+        "top": {
+          "shape": "suit",
+          "color": "#3E7D3A",
+          "shirt": "#F4F1EA",
+          "tie": "#F4F1EA",
+          "sleeve": 0.95
+        },
+        "bottom": {
+          "kind": "pants",
+          "color": "#2B3A55"
+        },
+        "shoes": {
+          "kind": "sneakers",
+          "color": "#F4F1EA"
+        },
+        "hold_r": "book"
+      }
+    },
+    "office_worker": {
+      "description": "office worker: white shirt, red tie, laptop and briefcase (jobs, office, corporate)",
+      "name": "Office Worker",
+      "group": "Modern & daily life",
+      "parts": [
+        "side_part"
+      ],
+      "accent": "#C0262D",
+      "costume": {
+        "top": {
+          "shape": "suit",
+          "color": "#F4F1EA",
+          "shirt": "#F4F1EA",
+          "tie": "#C0262D",
+          "sleeve": 0.95
+        },
+        "bottom": {
+          "kind": "pants",
+          "color": "#2A2D33"
+        },
+        "shoes": {
+          "kind": "shoe",
+          "color": "#2A2420"
+        },
+        "hold_r": "laptop",
+        "hold_l": "briefcase",
+        "case": "#6B3F1D"
+      }
+    },
+    "business_suit": {
+      "description": "business person in a black suit and tie with glasses and a briefcase (business, money, deals)",
+      "name": "Business Suit",
+      "group": "Modern & daily life",
+      "parts": [
+        "side_part",
+        "glasses"
+      ],
+      "accent": "#C0262D",
+      "costume": {
+        "top": {
+          "shape": "suit",
+          "color": "#1F2228",
+          "shirt": "#FFFFFF",
+          "tie": "#C0262D",
+          "sleeve": 0.95
+        },
+        "bottom": {
+          "kind": "pants",
+          "color": "#1F2228"
+        },
+        "shoes": {
+          "kind": "shoe",
+          "color": "#2A2420"
+        },
+        "hold_l": "briefcase"
+      }
+    },
+    "teacher": {
+      "description": "teacher in a saree with glasses and a pointer stick (school, lessons, education)",
+      "name": "Teacher",
+      "group": "Modern & daily life",
+      "parts": [
+        "bun",
+        "glasses",
+        "lashes"
+      ],
+      "accent": "#B83280",
+      "costume": {
+        "top": {
+          "shape": "shirt",
+          "color": "#E07A2E",
+          "sleeve": 0.3
+        },
+        "bottom": {
+          "kind": "long_skirt",
+          "color": "#B83280",
+          "border": "#F2B33D"
+        },
+        "pallu": "#B83280",
+        "pallu_border": "#F2B33D",
+        "shoes": {
+          "kind": "sandals",
+          "color": "#8B5A2B"
+        },
+        "hold_r": "pointer"
+      }
+    },
+    "doctor_coat": {
+      "description": "doctor in a white coat with a stethoscope (health, medicine, hospitals)",
+      "name": "Doctor",
+      "group": "Modern & daily life",
+      "parts": [
+        "side_part"
+      ],
+      "accent": "#2F7FD0",
+      "costume": {
+        "top": {
+          "shape": "suit",
+          "color": "#F7F7F4",
+          "shirt": "#9CC4EE",
+          "tie": "#2F5FA8",
+          "sleeve": 0.95,
+          "length": 170
+        },
+        "badge": "stethoscope",
+        "bottom": {
+          "kind": "pants",
+          "color": "#3A5FA0"
+        },
+        "shoes": {
+          "kind": "shoe",
+          "color": "#2A2420"
+        }
+      }
+    },
+    "nurse": {
+      "description": "nurse in pink scrubs with a clipboard (health, care, hospitals)",
+      "name": "Nurse",
+      "group": "Modern & daily life",
+      "parts": [
+        "ponytail",
+        "lashes"
+      ],
+      "accent": "#E86FA0",
+      "costume": {
+        "top": {
+          "shape": "shirt",
+          "color": "#F08BB4",
+          "sleeve": 0.35,
+          "pocket": true
+        },
+        "bottom": {
+          "kind": "pants",
+          "color": "#F08BB4"
+        },
+        "shoes": {
+          "kind": "sneakers",
+          "color": "#F4F1EA"
+        },
+        "badge": "id",
+        "hold_r": "clipboard"
+      }
+    },
+    "lab_scientist": {
+      "description": "scientist in a lab coat and safety goggles holding a green flask (science, labs, experiments)",
+      "name": "Scientist",
+      "group": "Modern & daily life",
+      "parts": [
+        "messy_hair",
+        "goggles"
+      ],
+      "accent": "#3DBE4F",
+      "costume": {
+        "top": {
+          "shape": "suit",
+          "color": "#F7F7F4",
+          "shirt": "#F7F7F4",
+          "tie": "#F7F7F4",
+          "sleeve": 0.95,
+          "length": 170
+        },
+        "bottom": {
+          "kind": "pants",
+          "color": "#3A5FA0"
+        },
+        "shoes": {
+          "kind": "shoe",
+          "color": "#2A2420"
+        },
+        "hold_r": "flask"
+      }
+    },
+    "engineer": {
+      "description": "engineer in a yellow hard hat and hi-vis vest with a blueprint (construction, engineering, infrastructure)",
+      "name": "Engineer",
+      "group": "Modern & daily life",
+      "parts": [
+        "hardhat"
+      ],
+      "accent": "#F2B33D",
+      "hat": "#F7C21B",
+      "costume": {
+        "top": {
+          "shape": "shirt",
+          "color": "#3A5FA0",
+          "sleeve": 0.95
+        },
+        "vest": {
+          "color": "#F7C21B"
+        },
+        "bottom": {
+          "kind": "pants",
+          "color": "#2B3A55"
+        },
+        "shoes": {
+          "kind": "boots",
+          "color": "#8B5A2B"
+        },
+        "hold_r": "blueprint"
+      }
+    },
+    "police": {
+      "description": "police officer: peaked cap, sunglasses, khaki uniform, badge and baton (law, police, crime, safety)",
+      "name": "Police Officer",
+      "group": "Modern & daily life",
+      "parts": [
+        "police_cap",
+        "sunglasses"
+      ],
+      "accent": "#2F3A68",
+      "hat": "#2F3A68",
+      "costume": {
+        "top": {
+          "shape": "shirt",
+          "color": "#B9925E",
+          "sleeve": 0.45,
+          "pocket": true,
+          "buttons": true
+        },
+        "badge": "star",
+        "epaulettes": "#2F3A68",
+        "bottom": {
+          "kind": "pants",
+          "color": "#8E6F45"
+        },
+        "shoes": {
+          "kind": "boots",
+          "color": "#1B1B1F"
+        },
+        "hold_r": "baton"
+      }
+    },
+    "chef_cook": {
+      "description": "chef in a white hat and apron cooking with a flaming pan (food, cooking, restaurants)",
+      "name": "Chef",
+      "group": "Modern & daily life",
+      "parts": [
+        "chef_hat"
+      ],
+      "accent": "#FFFFFF",
+      "costume": {
+        "top": {
+          "shape": "shirt",
+          "color": "#F7F7F4",
+          "sleeve": 0.6,
+          "buttons": true
+        },
+        "apron": "#F4F1EA",
+        "bottom": {
+          "kind": "pants",
+          "color": "#2A2D33"
+        },
+        "shoes": {
+          "kind": "shoe",
+          "color": "#2A2420"
+        },
+        "hold_r": "pan"
+      }
+    },
+    "mechanic": {
+      "description": "mechanic in a blue cap and work overalls with a wrench (cars, repairs, factories)",
+      "name": "Mechanic",
+      "group": "Modern & daily life",
+      "parts": [
+        "cap"
+      ],
+      "accent": "#2F5FA8",
+      "costume": {
+        "top": {
+          "shape": "shirt",
+          "color": "#3A6FB8",
+          "sleeve": 0.95,
+          "pocket": true
+        },
+        "badge": "logo",
+        "bottom": {
+          "kind": "pants",
+          "color": "#3A6FB8"
+        },
+        "shoes": {
+          "kind": "boots",
+          "color": "#1B1B1F"
+        },
+        "gloves": "#1B1B1F",
+        "hold_r": "wrench"
+      }
+    },
+    "delivery": {
+      "description": "delivery rider in a red cap and orange jacket carrying a parcel (delivery, online shopping, logistics)",
+      "name": "Delivery Boy",
+      "group": "Modern & daily life",
+      "parts": [
+        "cap"
+      ],
+      "accent": "#D62828",
+      "costume": {
+        "top": {
+          "shape": "puffer",
+          "color": "#E8822E",
+          "sleeve": 0.95
+        },
+        "bottom": {
+          "kind": "pants",
+          "color": "#2B3A55"
+        },
+        "shoes": {
+          "kind": "sneakers",
+          "color": "#F4F1EA"
+        },
+        "hold_r": "box",
+        "straps": "#1F1F23"
+      }
+    },
+    "driver": {
+      "description": "driver in a black cap and white shirt holding a steering wheel (driving, transport, taxis, roads)",
+      "name": "Driver",
+      "group": "Modern & daily life",
+      "parts": [
+        "cap"
+      ],
+      "accent": "#1F1F23",
+      "costume": {
+        "top": {
+          "shape": "shirt",
+          "color": "#F7F7F4",
+          "sleeve": 0.45,
+          "collar": true
+        },
+        "bottom": {
+          "kind": "pants",
+          "color": "#2A2D33"
+        },
+        "shoes": {
+          "kind": "shoe",
+          "color": "#2A2420"
+        },
+        "hold_r": "steering"
+      }
+    },
+    "pilot": {
+      "description": "airline pilot: white cap, sunglasses, navy uniform with gold stripes (flights, airports, aviation)",
+      "name": "Pilot",
+      "group": "Modern & daily life",
+      "parts": [
+        "pilot_cap",
+        "sunglasses"
+      ],
+      "accent": "#1F2A44",
+      "costume": {
+        "top": {
+          "shape": "suit",
+          "color": "#1F2A44",
+          "shirt": "#FFFFFF",
+          "tie": "#1B1B1F",
+          "sleeve": 0.95
+        },
+        "epaulettes": "#F2B33D",
+        "wrist": "#F2B33D",
+        "bottom": {
+          "kind": "pants",
+          "color": "#1F2A44"
+        },
+        "shoes": {
+          "kind": "shoe",
+          "color": "#2A2420"
+        }
+      }
+    },
+    "flight_attendant": {
+      "description": "flight attendant in a navy uniform, small hat and neck scarf (airlines, travel, service)",
+      "name": "Flight Attendant",
+      "group": "Modern & daily life",
+      "parts": [
+        "pillbox",
+        "bun",
+        "lashes"
+      ],
+      "accent": "#2F3A68",
+      "hat": "#2F3A68",
+      "costume": {
+        "top": {
+          "shape": "suit",
+          "color": "#2F3A68",
+          "shirt": "#FFFFFF",
+          "tie": "#C0262D",
+          "sleeve": 0.95
+        },
+        "bottom": {
+          "kind": "skirt",
+          "color": "#2F3A68"
+        },
+        "shoes": {
+          "kind": "shoe",
+          "color": "#1B1B1F"
+        }
+      }
+    },
+    "sportsperson": {
+      "description": "footballer in a red number-20 jersey, shorts and socks with a ball (sport, fitness, football, teams)",
+      "name": "Sportsperson",
+      "group": "Modern & daily life",
+      "parts": [
+        "messy_hair"
+      ],
+      "accent": "#D62828",
+      "costume": {
+        "top": {
+          "shape": "shirt",
+          "color": "#D62828",
+          "sleeve": 0.35
+        },
+        "number": "20",
+        "bottom": {
+          "kind": "shorts",
+          "color": "#F4F1EA"
+        },
+        "shoes": {
+          "kind": "sneakers",
+          "color": "#1B1B1F"
+        },
+        "wrist": "#F4F1EA",
+        "hold_r": "ball"
+      }
+    },
+    "gamer_pro": {
+      "description": "gamer with a red headset, blue hoodie and a controller (gaming, esports, internet)",
+      "name": "Gamer",
+      "group": "Modern & daily life",
+      "parts": [
+        "messy_hair",
+        "headset"
+      ],
+      "accent": "#D62828",
+      "hat": "#D62828",
+      "costume": {
+        "top": {
+          "shape": "hoodie",
+          "color": "#2F5FA8",
+          "sleeve": 0.95,
+          "hood": false
+        },
+        "bottom": {
+          "kind": "pants",
+          "color": "#2B2D42"
+        },
+        "shoes": {
+          "kind": "sneakers",
+          "color": "#F4F1EA"
+        },
+        "hold_r": "controller"
+      }
+    },
+    "photographer": {
+      "description": "photographer in a bucket hat and vest with a camera (photography, travel, media)",
+      "name": "Photographer",
+      "group": "Modern & daily life",
+      "parts": [
+        "bucket_hat"
+      ],
+      "accent": "#C8955A",
+      "hat": "#C8955A",
+      "costume": {
+        "top": {
+          "shape": "shirt",
+          "color": "#E8C46E",
+          "sleeve": 0.45,
+          "pocket": true
+        },
+        "vest": {
+          "color": "#8B6A3E",
+          "stripes": "#8B6A3E"
+        },
+        "bottom": {
+          "kind": "pants",
+          "color": "#2B3A55"
+        },
+        "shoes": {
+          "kind": "boots",
+          "color": "#8B5A2B"
+        },
+        "hold_r": "camera",
+        "satchel": "#6B3F1D"
+      }
+    },
+    "reporter": {
+      "description": "TV reporter in a purple jacket with a microphone (news, journalism, interviews)",
+      "name": "Reporter",
+      "group": "Modern & daily life",
+      "parts": [
+        "long_hair",
+        "lashes"
+      ],
+      "accent": "#7A3FA0",
+      "costume": {
+        "top": {
+          "shape": "suit",
+          "color": "#7A3FA0",
+          "shirt": "#F4F1EA",
+          "tie": "#F4F1EA",
+          "sleeve": 0.95
+        },
+        "bottom": {
+          "kind": "pants",
+          "color": "#2A2D33"
+        },
+        "shoes": {
+          "kind": "shoe",
+          "color": "#2A2420"
+        },
+        "hold_r": "mic",
+        "badge": "id"
+      }
+    },
+    "musician": {
+      "description": "musician in headphones and a red jacket with an electric guitar (music, concerts, entertainment)",
+      "name": "DJ / Musician",
+      "group": "Modern & daily life",
+      "parts": [
+        "messy_hair",
+        "headphones"
+      ],
+      "accent": "#1F1F23",
+      "costume": {
+        "top": {
+          "shape": "suit",
+          "color": "#C0262D",
+          "shirt": "#1F1F23",
+          "tie": "#1F1F23",
+          "sleeve": 0.95
+        },
+        "bottom": {
+          "kind": "pants",
+          "color": "#1F1F23"
+        },
+        "shoes": {
+          "kind": "boots",
+          "color": "#1B1B1F"
+        },
+        "hold_r": "guitar"
+      }
+    },
+    "youtuber": {
+      "description": "YouTuber in a red bandana and logo T-shirt next to a camera on a tripod (social media, vlogs, creators)",
+      "name": "YouTuber",
+      "group": "Modern & daily life",
+      "parts": [
+        "bandana"
+      ],
+      "accent": "#D62828",
+      "hat": "#D62828",
+      "costume": {
+        "top": {
+          "shape": "shirt",
+          "color": "#F4F1EA",
+          "sleeve": 0.4
+        },
+        "badge": "logo",
+        "badgeColor": "#D62828",
+        "bottom": {
+          "kind": "pants",
+          "color": "#2B3A55"
+        },
+        "shoes": {
+          "kind": "sneakers",
+          "color": "#F4F1EA"
+        },
+        "hold_r": "tripod"
+      }
+    },
+    "student_girl": {
+      "description": "school girl: ponytail, white shirt, navy skirt, backpack and a notebook (school, girls education)",
+      "name": "Student (Girl)",
+      "group": "Modern & daily life",
+      "parts": [
+        "ponytail",
+        "backpack",
+        "lashes"
+      ],
+      "accent": "#2F7FD0",
+      "costume": {
+        "top": {
+          "shape": "shirt",
+          "color": "#F7F7F4",
+          "sleeve": 0.4,
+          "collar": true
+        },
+        "bottom": {
+          "kind": "skirt",
+          "color": "#2F3A68"
+        },
+        "shoes": {
+          "kind": "shoe",
+          "color": "#2A2420"
+        },
+        "hold_r": "book"
+      }
+    },
+    "professional_woman": {
+      "description": "professional woman in a black suit with a briefcase (careers, business, leadership)",
+      "name": "Professional Woman",
+      "group": "Modern & daily life",
+      "parts": [
+        "long_hair",
+        "lashes"
+      ],
+      "accent": "#1F2228",
+      "costume": {
+        "top": {
+          "shape": "suit",
+          "color": "#1F2228",
+          "shirt": "#FFFFFF",
+          "tie": "#FFFFFF",
+          "sleeve": 0.95
+        },
+        "bottom": {
+          "kind": "pants",
+          "color": "#1F2228"
+        },
+        "shoes": {
+          "kind": "shoe",
+          "color": "#2A2420"
+        },
+        "hold_l": "briefcase"
+      }
+    },
+    "casual_girl": {
+      "description": "young woman in a pink hoodie and jeans with a handbag (lifestyle, shopping, youth)",
+      "name": "Casual Girl",
+      "group": "Modern & daily life",
+      "parts": [
+        "ponytail",
+        "lashes"
+      ],
+      "accent": "#E86FA0",
+      "costume": {
+        "top": {
+          "shape": "hoodie",
+          "color": "#E86FA0",
+          "sleeve": 0.95,
+          "hood": false
+        },
+        "bottom": {
+          "kind": "pants",
+          "color": "#3A5FA0"
+        },
+        "shoes": {
+          "kind": "sneakers",
+          "color": "#F4F1EA"
+        },
+        "hold_l": "handbag"
+      }
+    },
+    "caveman": {
+      "description": "caveman in a leopard-skin tunic with a wild beard and a spear (stone age, early humans, prehistory)",
+      "name": "Caveman",
+      "group": "Historical, cultural & fantasy",
+      "parts": [
+        "cave_hair",
+        "dark_beard"
+      ],
+      "accent": "#C88A3A",
+      "costume": {
+        "top": {
+          "shape": "tunic",
+          "color": "#E2A85B",
+          "pattern": "spots",
+          "color2": "#5B3A1E",
+          "oneShoulder": true,
+          "ragged": true,
+          "length": 150
+        },
+        "hold_r": "spear"
+      }
+    },
+    "tribal_hunter": {
+      "description": "tribal hunter with a headband, leopard skin and a spear (tribes, hunting, forests)",
+      "name": "Tribal Hunter",
+      "group": "Historical, cultural & fantasy",
+      "parts": [
+        "headband",
+        "messy_hair"
+      ],
+      "accent": "#C0262D",
+      "costume": {
+        "top": {
+          "shape": "tunic",
+          "color": "#E2A85B",
+          "pattern": "spots",
+          "color2": "#5B3A1E",
+          "oneShoulder": true,
+          "ragged": true,
+          "length": 140
+        },
+        "hold_r": "spear",
+        "wrist": "#8B5A2B"
+      }
+    },
+    "ancient_indian": {
+      "description": "ancient Indian man in a turban, white dhoti and orange shawl with a staff (ancient India, villages, history)",
+      "name": "Ancient Indian",
+      "group": "Historical, cultural & fantasy",
+      "parts": [
+        "turban",
+        "mustache"
+      ],
+      "accent": "#E8822E",
+      "hat": "#E8B04A",
+      "costume": {
+        "top": {
+          "shape": "tunic",
+          "color": "#F4F1EA",
+          "length": 118
+        },
+        "sash": "#E8822E",
+        "bottom": {
+          "kind": "lungi",
+          "color": "#F4F1EA",
+          "len": 0.85
+        },
+        "shoes": {
+          "kind": "sandals",
+          "color": "#8B5A2B"
+        },
+        "hold_l": "staff"
+      }
+    },
+    "sage": {
+      "description": "sage / monk in saffron robes with a white beard and a staff (spirituality, religion, Vedic period, wisdom)",
+      "name": "Sage / Monk",
+      "group": "Historical, cultural & fantasy",
+      "parts": [
+        "sage_bun",
+        "white_beard",
+        "tilak"
+      ],
+      "accent": "#E8822E",
+      "costume": {
+        "top": {
+          "shape": "tunic",
+          "color": "#E8822E",
+          "oneShoulder": true,
+          "length": 240
+        },
+        "shoes": {
+          "kind": "sandals",
+          "color": "#8B5A2B"
+        },
+        "hold_l": "staff"
+      }
+    },
+    "priest": {
+      "description": "Hindu priest in a white dhoti and saffron shawl with a tilak and a scroll (rituals, temples, religion, Vedic)",
+      "name": "Priest / Pandit",
+      "group": "Historical, cultural & fantasy",
+      "parts": [
+        "shikha",
+        "tilak"
+      ],
+      "accent": "#E8822E",
+      "costume": {
+        "top": {
+          "shape": "tunic",
+          "color": "#F4F1EA",
+          "length": 112
+        },
+        "sash": "#E8822E",
+        "bottom": {
+          "kind": "lungi",
+          "color": "#F4F1EA",
+          "len": 0.85
+        },
+        "shoes": {
+          "kind": "sandals",
+          "color": "#8B5A2B"
+        },
+        "hold_r": "scroll"
+      }
+    },
+    "maharaja": {
+      "description": "Indian king in a gold crown, red royal robe and cape with a sceptre (kings, empires, royalty, history)",
+      "name": "King / Maharaja",
+      "group": "Historical, cultural & fantasy",
+      "parts": [
+        "crown",
+        "mustache"
+      ],
+      "accent": "#C0262D",
+      "costume": {
+        "top": {
+          "shape": "tunic",
+          "color": "#C0262D",
+          "length": 200,
+          "belt": "#F2B33D"
+        },
+        "sash": "#F2B33D",
+        "cape": {
+          "color": "#8E1B1B"
+        },
+        "shoes": {
+          "kind": "shoe",
+          "color": "#F2B33D"
+        },
+        "hold_r": "sceptre"
+      }
+    },
+    "rani": {
+      "description": "Indian queen in a red and gold saree with a tiara (queens, royalty, history, culture)",
+      "name": "Queen / Rani",
+      "group": "Historical, cultural & fantasy",
+      "parts": [
+        "tiara",
+        "long_hair",
+        "lashes"
+      ],
+      "accent": "#C0262D",
+      "costume": {
+        "top": {
+          "shape": "shirt",
+          "color": "#F2B33D",
+          "sleeve": 0.3
+        },
+        "bottom": {
+          "kind": "long_skirt",
+          "color": "#C0262D",
+          "border": "#F2B33D"
+        },
+        "pallu": "#C0262D",
+        "pallu_border": "#F2B33D",
+        "shoes": {
+          "kind": "sandals",
+          "color": "#F2B33D"
+        }
+      }
+    },
+    "spartan": {
+      "description": "Spartan hoplite: crested bronze helmet, red cape, bronze shield and spear (Greece, battles, courage)",
+      "name": "Spartan",
+      "group": "Historical, cultural & fantasy",
+      "parts": [
+        "helmet"
+      ],
+      "accent": "#C0262D",
+      "costume": {
+        "top": {
+          "shape": "armor",
+          "color": "#C9973F",
+          "strips": "#8E1B1B",
+          "belt": "#6B3F1D"
+        },
+        "cape": {
+          "color": "#B3261E"
+        },
+        "shoes": {
+          "kind": "sandals",
+          "color": "#7A4A22"
+        },
+        "hold_r": "spear",
+        "hold_l": "shield",
+        "shield": "#C08A2E",
+        "crest": "#C0262D"
+      }
+    },
+    "samurai": {
+      "description": "samurai in red lacquered armour and a horned kabuto helmet with a katana (Japan, warriors, honour)",
+      "name": "Samurai",
+      "group": "Historical, cultural & fantasy",
+      "parts": [
+        "samurai_helmet",
+        "mustache"
+      ],
+      "accent": "#B3261E",
+      "costume": {
+        "top": {
+          "shape": "armor",
+          "color": "#9E1F1F",
+          "strips": "#2A2420",
+          "belt": "#F2B33D",
+          "sleeveColor": "#2A2420",
+          "sleeve": 0.5
+        },
+        "bottom": {
+          "kind": "pants",
+          "color": "#2A2420",
+          "len": 0.7
+        },
+        "shoes": {
+          "kind": "sandals",
+          "color": "#2A2420"
+        },
+        "hold_r": "katana"
+      }
+    },
+    "roman_soldier": {
+      "description": "Roman legionary: silver helmet with a red crest, armour, red tunic, shield and sword (Rome, empires, legions)",
+      "name": "Roman Soldier",
+      "group": "Historical, cultural & fantasy",
+      "parts": [
+        "roman_helmet"
+      ],
+      "accent": "#C0262D",
+      "costume": {
+        "top": {
+          "shape": "armor",
+          "color": "#B8C0C8",
+          "strips": "#C0262D",
+          "belt": "#6B3F1D"
+        },
+        "cape": {
+          "color": "#C0262D"
+        },
+        "shoes": {
+          "kind": "sandals",
+          "color": "#7A4A22"
+        },
+        "hold_r": "sword",
+        "hold_l": "shield",
+        "shield": "#C0262D"
+      }
+    },
+    "knight": {
+      "description": "medieval knight in full steel armour with a red cross, shield and sword (castles, crusades, middle ages)",
+      "name": "Medieval Knight",
+      "group": "Historical, cultural & fantasy",
+      "parts": [
+        "knight_helmet"
+      ],
+      "accent": "#C0262D",
+      "costume": {
+        "top": {
+          "shape": "tunic",
+          "color": "#F4F1EA",
+          "length": 150,
+          "belt": "#6B3F1D"
+        },
+        "cross": "#C0262D",
+        "bottom": {
+          "kind": "pants",
+          "color": "#B8C0C8"
+        },
+        "shoes": {
+          "kind": "boots",
+          "color": "#9AA3AD"
+        },
+        "gloves": "#9AA3AD",
+        "hold_r": "sword",
+        "hold_l": "shield",
+        "shield": "#F4F1EA"
+      }
+    },
+    "ninja": {
+      "description": "ninja in black with a mask and a katana (Japan, stealth, action)",
+      "name": "Ninja",
+      "group": "Historical, cultural & fantasy",
+      "parts": [
+        "ninja_mask"
+      ],
+      "accent": "#1B1B1F",
+      "costume": {
+        "top": {
+          "shape": "tunic",
+          "color": "#1F1F23",
+          "length": 120,
+          "belt": "#3A3A40"
+        },
+        "bottom": {
+          "kind": "pants",
+          "color": "#1F1F23"
+        },
+        "shoes": {
+          "kind": "boots",
+          "color": "#1B1B1F"
+        },
+        "gloves": "#1B1B1F",
+        "hold_r": "katana"
+      }
+    },
+    "wizard": {
+      "description": "wizard in a purple robe and star hat with a glowing staff (fantasy, magic, stories)",
+      "name": "Wizard / Mage",
+      "group": "Historical, cultural & fantasy",
+      "parts": [
+        "wizard_hat",
+        "white_beard"
+      ],
+      "accent": "#4B2E83",
+      "hat": "#4B2E83",
+      "costume": {
+        "top": {
+          "shape": "tunic",
+          "color": "#4B2E83",
+          "length": 245,
+          "belt": "#F2B33D"
+        },
+        "hold_r": "magic_staff"
+      }
+    },
+    "viking": {
+      "description": "viking with a horned helmet, red beard, fur tunic, round shield and an axe (Vikings, Norse, sea raiders)",
+      "name": "Viking",
+      "group": "Historical, cultural & fantasy",
+      "parts": [
+        "viking_helmet",
+        "viking_beard"
+      ],
+      "accent": "#8B5A2B",
+      "costume": {
+        "top": {
+          "shape": "tunic",
+          "color": "#8B6A3E",
+          "length": 140,
+          "belt": "#3A2414",
+          "ragged": true
+        },
+        "bottom": {
+          "kind": "pants",
+          "color": "#5B3A1E"
+        },
+        "shoes": {
+          "kind": "boots",
+          "color": "#3A2414"
+        },
+        "hold_r": "axe",
+        "hold_l": "shield",
+        "shield": "#8B5A2B"
+      }
+    },
+    "farmer": {
+      "description": "farmer in a straw hat, green shirt and shorts carrying a young plant (farming, agriculture, villages)",
+      "name": "Farmer",
+      "group": "Profession, lifestyle & special",
+      "parts": [
+        "straw_hat"
+      ],
+      "accent": "#3E7D3A",
+      "costume": {
+        "top": {
+          "shape": "shirt",
+          "color": "#5A9A3E",
+          "sleeve": 0.45,
+          "collar": true
+        },
+        "bottom": {
+          "kind": "shorts",
+          "color": "#8B6A3E",
+          "len": 0.55
+        },
+        "shoes": {
+          "kind": "boots",
+          "color": "#3A2414"
+        },
+        "hold_r": "sapling",
+        "band": "#3E7D3A"
+      }
+    },
+    "village_man": {
+      "description": "village man in an orange turban, white kurta and dhoti with a stick (rural India, villages, farmers)",
+      "name": "Village Man",
+      "group": "Profession, lifestyle & special",
+      "parts": [
+        "turban",
+        "mustache"
+      ],
+      "accent": "#E8822E",
+      "hat": "#E8822E",
+      "costume": {
+        "top": {
+          "shape": "tunic",
+          "color": "#F4F1EA",
+          "length": 150
+        },
+        "bottom": {
+          "kind": "lungi",
+          "color": "#F4F1EA",
+          "len": 0.85
+        },
+        "shoes": {
+          "kind": "sandals",
+          "color": "#8B5A2B"
+        },
+        "hold_l": "staff"
+      }
+    },
+    "village_woman": {
+      "description": "village woman in a colourful saree with her head covered, carrying a water pot (rural life, women, villages, water)",
+      "name": "Village Woman",
+      "group": "Profession, lifestyle & special",
+      "parts": [
+        "veil",
+        "lashes"
+      ],
+      "accent": "#C0262D",
+      "hat": "#C0262D",
+      "costume": {
+        "top": {
+          "shape": "shirt",
+          "color": "#2E9D57",
+          "sleeve": 0.3
+        },
+        "bottom": {
+          "kind": "long_skirt",
+          "color": "#C0262D",
+          "border": "#F2B33D"
+        },
+        "pallu": "#C0262D",
+        "pallu_border": "#F2B33D",
+        "shoes": {
+          "kind": "sandals",
+          "color": "#8B5A2B"
+        },
+        "hold_r": "pot",
+        "band": "#F2B33D"
+      }
+    },
+    "nomad": {
+      "description": "desert traveller in a head wrap, goggles and sand-coloured robes (deserts, nomads, trade routes)",
+      "name": "Nomad / Desert",
+      "group": "Profession, lifestyle & special",
+      "parts": [
+        "keffiyeh",
+        "goggles"
+      ],
+      "accent": "#C8955A",
+      "hat": "#E2C08A",
+      "costume": {
+        "top": {
+          "shape": "tunic",
+          "color": "#D9B98A",
+          "length": 230,
+          "belt": "#8B5A2B"
+        },
+        "shoes": {
+          "kind": "boots",
+          "color": "#8B5A2B"
+        },
+        "satchel": "#8B5A2B"
+      }
+    },
+    "fisherman": {
+      "description": "fisherman in a straw hat and blue shirt with a fishing rod and a net (fishing, rivers, coasts)",
+      "name": "Fisherman",
+      "group": "Profession, lifestyle & special",
+      "parts": [
+        "straw_hat"
+      ],
+      "accent": "#2F7FD0",
+      "costume": {
+        "top": {
+          "shape": "shirt",
+          "color": "#3A6FB8",
+          "sleeve": 0.45,
+          "collar": true
+        },
+        "bottom": {
+          "kind": "shorts",
+          "color": "#8B6A3E",
+          "len": 0.6
+        },
+        "shoes": {
+          "kind": "boots",
+          "color": "#3A2414"
+        },
+        "hold_r": "fishing_rod",
+        "hold_l": "net",
+        "band": "#2F7FD0"
+      }
+    },
+    "traveller": {
+      "description": "explorer in a safari hat with a backpack and a map (travel, geography, discovery)",
+      "name": "Explorer / Traveller",
+      "group": "Profession, lifestyle & special",
+      "parts": [
+        "explorer_hat",
+        "backpack"
+      ],
+      "accent": "#8B5A2B",
+      "costume": {
+        "top": {
+          "shape": "shirt",
+          "color": "#C9A56A",
+          "sleeve": 0.45,
+          "pocket": true,
+          "collar": true
+        },
+        "bottom": {
+          "kind": "pants",
+          "color": "#6B5A3E"
+        },
+        "shoes": {
+          "kind": "boots",
+          "color": "#6B4A2B"
+        },
+        "hold_r": "map"
+      }
+    },
+    "mountaineer": {
+      "description": "mountaineer in a blue down suit, snow goggles and an ice axe (mountains, Everest, adventure)",
+      "name": "Mountaineer",
+      "group": "Profession, lifestyle & special",
+      "parts": [
+        "beanie",
+        "ski_goggles",
+        "backpack"
+      ],
+      "accent": "#2F7FD0",
+      "hat": "#C0262D",
+      "costume": {
+        "top": {
+          "shape": "puffer",
+          "color": "#2F7FD0",
+          "sleeve": 0.95
+        },
+        "bottom": {
+          "kind": "pants",
+          "color": "#2B3A55"
+        },
+        "shoes": {
+          "kind": "boots",
+          "color": "#3A2414"
+        },
+        "gloves": "#1B1B1F",
+        "hold_r": "ice_axe"
+      }
+    },
+    "hiker": {
+      "description": "hiker with a big backpack, cap and trekking pole (camping, trekking, nature)",
+      "name": "Camping Hiker",
+      "group": "Profession, lifestyle & special",
+      "parts": [
+        "cap",
+        "backpack"
+      ],
+      "accent": "#3E7D3A",
+      "costume": {
+        "top": {
+          "shape": "shirt",
+          "color": "#6E8E4A",
+          "sleeve": 0.45,
+          "pocket": true
+        },
+        "bottom": {
+          "kind": "shorts",
+          "color": "#5B4A30",
+          "len": 0.6
+        },
+        "shoes": {
+          "kind": "boots",
+          "color": "#6B4A2B"
+        },
+        "straps": "#3E7D3A",
+        "hold_r": "pole"
+      }
+    },
+    "archer": {
+      "description": "archer in a green hood and tunic with a bow (Robin Hood, forests, medieval, aim)",
+      "name": "Archer",
+      "group": "Profession, lifestyle & special",
+      "parts": [
+        "pointed_hood"
+      ],
+      "accent": "#3E7D3A",
+      "hat": "#2E6B2E",
+      "costume": {
+        "top": {
+          "shape": "tunic",
+          "color": "#4E8A3A",
+          "length": 140,
+          "belt": "#6B3F1D"
+        },
+        "bottom": {
+          "kind": "pants",
+          "color": "#5B4A30"
+        },
+        "shoes": {
+          "kind": "boots",
+          "color": "#6B4A2B"
+        },
+        "hold_l": "bow",
+        "straps": "#6B3F1D"
+      }
+    },
+    "cowboy": {
+      "description": "cowboy in a hat, vest, red bandana and boots with a lasso (Wild West, ranches, America)",
+      "name": "Cowboy",
+      "group": "Profession, lifestyle & special",
+      "parts": [
+        "cowboy_hat"
+      ],
+      "accent": "#C0262D",
+      "hat": "#8B5A2B",
+      "costume": {
+        "top": {
+          "shape": "shirt",
+          "color": "#C0262D",
+          "sleeve": 0.95,
+          "collar": true
+        },
+        "vest": {
+          "color": "#8B5A2B",
+          "stripes": "#8B5A2B"
+        },
+        "bottom": {
+          "kind": "pants",
+          "color": "#3A5FA0"
+        },
+        "shoes": {
+          "kind": "boots",
+          "color": "#6B3F1D"
+        },
+        "hold_r": "lasso"
+      }
+    },
+    "pirate": {
+      "description": "pirate with a tricorn hat, eye patch, red coat and a cutlass (pirates, seas, treasure)",
+      "name": "Pirate",
+      "group": "Profession, lifestyle & special",
+      "parts": [
+        "tricorn",
+        "eyepatch",
+        "dark_beard"
+      ],
+      "accent": "#B3261E",
+      "costume": {
+        "top": {
+          "shape": "suit",
+          "color": "#B3261E",
+          "shirt": "#F4F1EA",
+          "tie": "#F4F1EA",
+          "sleeve": 0.95,
+          "length": 150
+        },
+        "sash": "#1B1B1F",
+        "bottom": {
+          "kind": "pants",
+          "color": "#2A2420"
+        },
+        "shoes": {
+          "kind": "boots",
+          "color": "#1B1B1F"
+        },
+        "hold_r": "cutlass"
+      }
+    },
+    "astronaut": {
+      "description": "astronaut in a white space suit and glass helmet (space, NASA, moon, rockets)",
+      "name": "Astronaut",
+      "group": "Profession, lifestyle & special",
+      "parts": [
+        "space_helmet"
+      ],
+      "accent": "#2F7FD0",
+      "costume": {
+        "top": {
+          "shape": "puffer",
+          "color": "#F4F6FA",
+          "sleeve": 0.95
+        },
+        "badge": "logo",
+        "badgeColor": "#2F7FD0",
+        "bottom": {
+          "kind": "pants",
+          "color": "#E4E7EB"
+        },
+        "shoes": {
+          "kind": "boots",
+          "color": "#9AA3AD"
+        },
+        "gloves": "#E4E7EB",
+        "straps": "#9AA3AD"
+      }
+    },
+    "rain_outfit": {
+      "description": "person in a yellow raincoat and boots with an umbrella (rain, monsoon, weather)",
+      "name": "Rain Outfit",
+      "group": "Profession, lifestyle & special",
+      "parts": [],
+      "accent": "#F7C21B",
+      "hat": "#F7C21B",
+      "costume": {
+        "top": {
+          "shape": "hoodie",
+          "color": "#F7C21B",
+          "sleeve": 0.95,
+          "hood": true,
+          "length": 170,
+          "strings": "#F7C21B"
+        },
+        "bottom": {
+          "kind": "pants",
+          "color": "#2B3A55"
+        },
+        "shoes": {
+          "kind": "boots",
+          "color": "#F7C21B"
+        },
+        "hold_r": "umbrella"
+      }
+    },
+    "snow_outfit": {
+      "description": "person in a fur-hood snow jacket, ski goggles and gloves (winter, snow, cold places)",
+      "name": "Snow Outfit",
+      "group": "Profession, lifestyle & special",
+      "parts": [
+        "fur_hood",
+        "ski_goggles"
+      ],
+      "accent": "#2F3A68",
+      "hat": "#2F3A68",
+      "costume": {
+        "top": {
+          "shape": "puffer",
+          "color": "#2F3A68",
+          "sleeve": 0.95
+        },
+        "bottom": {
+          "kind": "pants",
+          "color": "#1F2A44"
+        },
+        "shoes": {
+          "kind": "boots",
+          "color": "#1B1B1F"
+        },
+        "gloves": "#1B1B1F"
+      }
+    },
+    "firefighter": {
+      "description": "firefighter in a red helmet and turnout coat with reflective stripes and an axe (fire, rescue, emergencies)",
+      "name": "Firefighter",
+      "group": "Profession, lifestyle & special",
+      "parts": [
+        "fire_helmet"
+      ],
+      "accent": "#C0262D",
+      "costume": {
+        "top": {
+          "shape": "puffer",
+          "color": "#C0262D",
+          "sleeve": 0.95,
+          "length": 140
+        },
+        "fire_stripes": true,
+        "bottom": {
+          "kind": "pants",
+          "color": "#C0262D"
+        },
+        "shoes": {
+          "kind": "boots",
+          "color": "#1B1B1F"
+        },
+        "gloves": "#1B1B1F",
+        "hold_r": "fire_axe"
+      }
+    }
+  }
+}

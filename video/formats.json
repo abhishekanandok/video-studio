@@ -1,0 +1,85 @@
+{
+  "exam": {
+    "label": "Exam-ready",
+    "description": "Two co-narrators share the facts like a Hindi exam-prep podcast.",
+    "roles": [
+      {
+        "name": "Kabir",
+        "voice": "Rasalgethi",
+        "style": "a warm, grounded co-narrator of an Indian exam-prep podcast, confident, brisk, lets big moments land with a pause",
+        "look": "a friendly Indian man in his thirties, short beard, round glasses, plain dark kurta, calm smile"
+      },
+      {
+        "name": "Tara",
+        "voice": "Zephyr",
+        "style": "a bright, sharp co-narrator of the same podcast, crisp and to the point; short acknowledgements sound natural and quick",
+        "look": "a cheerful Indian woman in her late twenties, hair tied back, simple collared shirt, curious expression"
+      }
+    ],
+    "look": "collage",
+    "dock": "halftone"
+  },
+  "documentary": {
+    "label": "Documentary",
+    "description": "One storyteller narrator, Vox / Veritasium style: history, suspense, reveals.",
+    "roles": [
+      {
+        "name": "Narrator",
+        "voice": "Sadaltager",
+        "style": "a seasoned documentary storyteller, calm and gripping, builds suspense, lets reveals land with a pause"
+      }
+    ],
+    "look": "mixed",
+    "dock": ""
+  },
+  "story": {
+    "label": "Story",
+    "description": "A cinematic story built from your idea: a hero, a mentor, a rival, and a world where every concept is real.",
+    "roles": [
+      {
+        "name": "Narrator",
+        "voice": "Charon",
+        "style": "an epic film trailer and storybook narrator: warm, weighty, lets moments breathe"
+      },
+      {
+        "name": "Hero",
+        "voice": "Puck",
+        "style": "the young hero of the story, earnest and quick, asks what an examiner would ask"
+      },
+      {
+        "name": "Mentor",
+        "voice": "Fenrir",
+        "style": "the wise mentor of the story, calm and witty, explains in short vivid bursts"
+      },
+      {
+        "name": "Rival",
+        "voice": "Algenib",
+        "style": "the story's rival or villain, cool and menacing, speaks rarely and precisely"
+      }
+    ],
+    "look": "cartoon",
+    "dock": "cartoon",
+    "premise": true,
+    "story_mode": "whole"
+  },
+  "interview": {
+    "label": "Interview",
+    "description": "A curious host interviews an expert who explains with stories and examples.",
+    "roles": [
+      {
+        "name": "Host",
+        "voice": "Achird",
+        "style": "a sharp, friendly interviewer who asks the questions the audience is thinking, briefly, and never repeats the answer back",
+        "look": "a friendly Indian interviewer in their thirties, smart casual, attentive expression"
+      },
+      {
+        "name": "Expert",
+        "voice": "Sadaltager",
+        "style": "a deeply knowledgeable expert who answers with stories, analogies and precise facts",
+        "look": "a warm, grey-haired Indian professor, spectacles, cotton shirt, thoughtful smile"
+      }
+    ],
+    "look": "collage",
+    "dock": "halftone"
+  }
+}

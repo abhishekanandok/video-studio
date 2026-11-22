@@ -1,0 +1,32 @@
+{
+  "name": "tayyari-video",
+  "private": true,
+  "scripts": {
+    "studio": "remotion studio",
+    "render": "remotion render src/index.ts Episode out/episode.mp4"
+  },
+  "dependencies": {
+    "@react-three/fiber": "^9.3.0",
+    "@remotion/cli": "4.0.529",
+    "@remotion/google-fonts": "4.0.529",
+    "@remotion/lottie": "4.0.529",
+    "@remotion/media-utils": "^4.0.529",
+    "@remotion/three": "^4.0.529",
+    "d3-geo": "^3.1.1",
+    "lottie-web": "^5.13.0",
+    "lucide-react": "^1.48.0",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "remotion": "4.0.529",
+    "three": "^0.178.0",
+    "topojson-client": "^3.1.0",
+    "world-atlas": "^2.0.2"
+  },
+  "devDependencies": {
+    "@types/d3-geo": "^3.1.0",
+    "@types/react": "^19",
+    "@types/three": "^0.178.0",
+    "@types/topojson-client": "^3.1.5",
+    "typescript": "^5"
+  }
+}

@@ -1,0 +1,838 @@
+{
+ "paper": {
+  "use": "AI, tech and business explainers",
+  "kicker": "THE AI RACE",
+  "title": "How big is GPT-3?",
+  "line": "The model that started the chatbot boom.",
+  "ideas": [
+   "How ChatGPT actually works",
+   "Why GPUs run AI",
+   "The AI chip race"
+  ]
+ },
+ "newspaper": {
+  "use": "breaking news, politics, elections",
+  "kicker": "MORNING EDITION",
+  "title": "India votes",
+  "line": "The largest election the world has seen.",
+  "ideas": [
+   "Election results, explained",
+   "This week's top story",
+   "What the budget means for you"
+  ]
+ },
+ "magazine": {
+  "use": "culture, food, design, long-form features",
+  "kicker": "THE COFFEE ISSUE",
+  "title": "Why the world runs on coffee",
+  "line": "A drink that began in Ethiopia.",
+  "ideas": [
+   "The story of coffee",
+   "Inside a fashion week",
+   "A city's food scene"
+  ]
+ },
+ "encyclopedia": {
+  "use": "history, science basics, 'what is' explainers",
+  "kicker": "VOLUME III",
+  "title": "The Great Wall of China",
+  "line": "Not one wall, but many, built over centuries.",
+  "ideas": [
+   "What is the Great Wall?",
+   "How volcanoes work",
+   "The history of zero"
+  ]
+ },
+ "zine": {
+  "use": "music, subculture, youth and DIY topics",
+  "kicker": "ISSUE #7",
+  "title": "Punk made it cheap",
+  "line": "Three chords and a photocopier.",
+  "ideas": [
+   "How punk began",
+   "Indie music on a budget",
+   "A local skate scene"
+  ]
+ },
+ "woodcut": {
+  "use": "folk tales, old history, religion, farming",
+  "kicker": "MAINZ, 1450",
+  "title": "The press that changed the world",
+  "line": "Gutenberg's movable type.",
+  "ideas": [
+   "A village folk tale",
+   "How farming began",
+   "Gutenberg's press"
+  ]
+ },
+ "patent": {
+  "use": "inventions, engineering, how things work",
+  "kicker": "PATENT No. 223,898",
+  "title": "The electric lamp",
+  "line": "Edison's long-lasting bulb, 1879.",
+  "ideas": [
+   "How the light bulb works",
+   "Inventions that changed India",
+   "How a zip works"
+  ]
+ },
+ "manuscript": {
+  "use": "medieval history, religion, literature",
+  "kicker": "FOLIO 12",
+  "title": "The Book of Kells",
+  "line": "Painted by monks around 800 AD.",
+  "ideas": [
+   "The Book of Kells",
+   "Medieval monks and books",
+   "How old books were made"
+  ]
+ },
+ "receipt": {
+  "use": "money, prices, personal finance",
+  "kicker": "RECEIPT #72",
+  "title": "Why money doubles",
+  "line": "The rule of 72: divide 72 by the interest rate.",
+  "ideas": [
+   "Where your salary goes",
+   "The rule of 72",
+   "Why prices keep rising"
+  ]
+ },
+ "dossier": {
+  "use": "investigations, spies, scandals, secret history",
+  "kicker": "DECLASSIFIED",
+  "title": "Operation Mincemeat",
+  "line": "1943: a dead man carried fake plans.",
+  "ideas": [
+   "Operation Mincemeat",
+   "Spies of the Cold War",
+   "A scandal, uncovered"
+  ]
+ },
+ "scroll": {
+  "use": "ancient history, empires, legends",
+  "kicker": "221 BC",
+  "title": "The first emperor of China",
+  "line": "Qin Shi Huang and his clay army.",
+  "ideas": [
+   "The first emperor of China",
+   "The rise of Rome",
+   "Legends of ancient India"
+  ]
+ },
+ "noir": {
+  "use": "true crime, mysteries, cold cases",
+  "kicker": "CASE FILE · 1872",
+  "title": "The ship with no crew",
+  "line": "The Mary Celeste, found adrift.",
+  "ideas": [
+   "The Mary Celeste mystery",
+   "An unsolved heist",
+   "A cold case, reopened"
+  ]
+ },
+ "contactsheet": {
+  "use": "photography, journalism, archives",
+  "kicker": "ROLL 24",
+  "title": "The first photograph",
+  "line": "Niépce, France, 1826 or 1827.",
+  "ideas": [
+   "The first photograph",
+   "Photos that changed history",
+   "Behind a famous picture"
+  ]
+ },
+ "chalkboard": {
+  "use": "maths, physics, school lessons",
+  "kicker": "LESSON 4",
+  "title": "Pythagoras",
+  "line": "Every right triangle obeys one rule.",
+  "ideas": [
+   "Pythagoras in 60 seconds",
+   "Newton's laws",
+   "Why π never ends"
+  ]
+ },
+ "whiteboard": {
+  "use": "startups, strategy, processes",
+  "kicker": "THE PLAN",
+  "title": "How a startup gets funded",
+  "line": "From an idea to Series A.",
+  "ideas": [
+   "How startups raise money",
+   "Your product strategy",
+   "How a process works"
+  ]
+ },
+ "sketchbook": {
+  "use": "creative process, design, ideas",
+  "kicker": "SKETCH 14",
+  "title": "Leonardo's notebooks",
+  "line": "He drew everything he wondered about.",
+  "ideas": [
+   "Leonardo's notebooks",
+   "How designers think",
+   "From sketch to product"
+  ]
+ },
+ "fieldjournal": {
+  "use": "nature, travel, exploration, biology",
+  "kicker": "FIELD NOTES",
+  "title": "Darwin on the Galápagos",
+  "line": "Islands that changed biology.",
+  "ideas": [
+   "Darwin's finches",
+   "A trek through the Western Ghats",
+   "Birds of your city"
+  ]
+ },
+ "sumi": {
+  "use": "Japan, calm, philosophy, mindfulness",
+  "kicker": "ZEN",
+  "title": "One breath, one circle",
+  "line": "The ensō is drawn in a single stroke.",
+  "ideas": [
+   "What is Zen?",
+   "The art of one breath",
+   "Japanese calligraphy"
+  ]
+ },
+ "pinboard": {
+  "use": "research, connections, mysteries",
+  "kicker": "THE EVIDENCE",
+  "title": "Who built Stonehenge?",
+  "line": "Its stones came a long way.",
+  "ideas": [
+   "Who built Stonehenge?",
+   "Connecting the clues",
+   "A research rabbit hole"
+  ]
+ },
+ "bulletjournal": {
+  "use": "productivity, habits, study tips",
+  "kicker": "MONDAY",
+  "title": "The 2-minute rule",
+  "line": "If it takes two minutes, do it now.",
+  "ideas": [
+   "The 2-minute rule",
+   "How to study for boards",
+   "Build a habit in 30 days"
+  ]
+ },
+ "notebook": {
+  "use": "study notes, exam prep, school topics",
+  "kicker": "CLASS 10 · PHYSICS",
+  "title": "Ohm's law",
+  "line": "Voltage, current and resistance.",
+  "ideas": [
+   "Ohm's law for Class 10",
+   "Revision notes: Chemistry",
+   "Exam tips that work"
+  ]
+ },
+ "kraft": {
+  "use": "crafts, DIY, small business, handmade",
+  "kicker": "MADE BY HAND",
+  "title": "How khadi is made",
+  "line": "Hand-spun, hand-woven cloth.",
+  "ideas": [
+   "How khadi is made",
+   "Starting a handmade brand",
+   "A potter's day"
+  ]
+ },
+ "cardboard": {
+  "use": "makers, engineering for kids, recycling",
+  "kicker": "BUILD KIT",
+  "title": "Give a box a second life",
+  "line": "Paper fibres can be used again.",
+  "ideas": [
+   "Build a cardboard robot",
+   "How recycling works",
+   "A science fair project"
+  ]
+ },
+ "darktech": {
+  "use": "AI, cybersecurity, chips, data centres",
+  "kicker": "SYSTEM 01",
+  "title": "Inside a data centre",
+  "line": "Where the internet lives.",
+  "ideas": [
+   "Inside a data centre",
+   "How hackers break in",
+   "What runs the cloud"
+  ]
+ },
+ "terminal": {
+  "use": "coding, hacking, internet history",
+  "kicker": "> boot",
+  "title": "The first computer bug",
+  "line": "A real moth, in a real relay.",
+  "ideas": [
+   "The first computer bug",
+   "Learn Git in 60 seconds",
+   "How the internet began"
+  ]
+ },
+ "keynote": {
+  "use": "product launches, startups, announcements",
+  "kicker": "INTRODUCING",
+  "title": "The first iPhone",
+  "line": "A phone, an iPod and the internet.",
+  "ideas": [
+   "The first iPhone",
+   "Launching your app",
+   "A product reveal"
+  ]
+ },
+ "marketdesk": {
+  "use": "stock market, economy, crypto, business news",
+  "kicker": "MARKETS",
+  "title": "The Sensex at 80,000",
+  "line": "34 years from 1,000.",
+  "ideas": [
+   "The Sensex at 80,000",
+   "How the stock market works",
+   "Crypto, explained"
+  ]
+ },
+ "synthwave": {
+  "use": "80s, retro tech, gaming, music",
+  "kicker": "1983",
+  "title": "The video game crash",
+  "line": "When the industry nearly died.",
+  "ideas": [
+   "The 1983 video game crash",
+   "80s tech we loved",
+   "The history of synth music"
+  ]
+ },
+ "blueprint": {
+  "use": "engineering, architecture, mechanics",
+  "kicker": "DRAWING No. 1",
+  "title": "How the Eiffel Tower stands",
+  "line": "Iron, triangles and rivets.",
+  "ideas": [
+   "How the Eiffel Tower stands",
+   "How a bridge holds up",
+   "Inside an engine"
+  ]
+ },
+ "arcade": {
+  "use": "games, kids, competition, leaderboards",
+  "kicker": "PLAYER 1",
+  "title": "Pac-Man's perfect score",
+  "line": "Every dot, every ghost, every fruit.",
+  "ideas": [
+   "Pac-Man's perfect score",
+   "The best-selling games ever",
+   "A gaming leaderboard"
+  ]
+ },
+ "y2k": {
+  "use": "internet culture, 2000s nostalgia, social media",
+  "kicker": "WWW",
+  "title": "The year 2000 bug",
+  "line": "When '00' looked like 1900.",
+  "ideas": [
+   "The Y2K bug",
+   "Early internet memories",
+   "MSN, Orkut and dial-up"
+  ]
+ },
+ "mission": {
+  "use": "space, rockets, missions",
+  "kicker": "T-MINUS 10",
+  "title": "Chandrayaan-3 lands",
+  "line": "India reaches the Moon's south pole region.",
+  "ideas": [
+   "Chandrayaan-3 lands",
+   "How rockets reach orbit",
+   "ISRO's next mission"
+  ]
+ },
+ "spreadsheet": {
+  "use": "data, budgets, reports, comparisons",
+  "kicker": "SHEET 1",
+  "title": "India's biggest states",
+  "line": "Census 2011, in millions.",
+  "ideas": [
+   "India's biggest states",
+   "Budget 2026 in numbers",
+   "Compare two phones"
+  ]
+ },
+ "consulting": {
+  "use": "business strategy, markets, frameworks",
+  "kicker": "EXHIBIT 3",
+  "title": "Why UPI won",
+  "line": "Free, instant, on every phone.",
+  "ideas": [
+   "Why UPI won",
+   "Market sizing a startup",
+   "A 2x2 for your strategy"
+  ]
+ },
+ "clinic": {
+  "use": "health, medicine, wellness",
+  "kicker": "HEALTH NOTE",
+  "title": "How a vaccine trains you",
+  "line": "A rehearsal for your immune system.",
+  "ideas": [
+   "How vaccines train you",
+   "What your BP numbers mean",
+   "Sleep and your heart"
+  ]
+ },
+ "warroom": {
+  "use": "war history, strategy, geopolitics",
+  "kicker": "OPERATIONS",
+  "title": "D-Day",
+  "line": "6 June 1944, Normandy.",
+  "ideas": [
+   "D-Day, hour by hour",
+   "Strategy in the Kargil war",
+   "Why empires invade"
+  ]
+ },
+ "cosmos": {
+  "use": "space, astronomy, physics",
+  "kicker": "LIGHT YEARS",
+  "title": "How far is the Sun?",
+  "line": "Farther than it looks.",
+  "ideas": [
+   "How far is the Sun?",
+   "Black holes, simply",
+   "Life on Mars?"
+  ]
+ },
+ "sports": {
+  "use": "sports, records, competitions",
+  "kicker": "MATCH DAY",
+  "title": "Sachin's hundred hundreds",
+  "line": "A record nobody has matched.",
+  "ideas": [
+   "Sachin's 100 hundreds",
+   "World Cup final recap",
+   "How IPL auctions work"
+  ]
+ },
+ "satellite": {
+  "use": "climate, earth science, disasters, data",
+  "kicker": "ORBIT 1,204",
+  "title": "India from space",
+  "line": "What satellites measure for us.",
+  "ideas": [
+   "India from space",
+   "Tracking a cyclone",
+   "Forests we are losing"
+  ]
+ },
+ "documentary": {
+  "use": "serious history, world events, people's stories",
+  "kicker": "1947",
+  "title": "Partition",
+  "line": "One border, millions of lives.",
+  "ideas": [
+   "Partition, 1947",
+   "Voices from a flood",
+   "A people's history"
+  ]
+ },
+ "collage": {
+  "use": "pop culture, music, fashion, youth",
+  "kicker": "THE MIXTAPE",
+  "title": "How hip-hop began",
+  "line": "A back-to-school party in the Bronx.",
+  "ideas": [
+   "How hip-hop began",
+   "Bollywood's 90s",
+   "Gen Z fashion"
+  ]
+ },
+ "gallery": {
+  "use": "art, museums, culture, biographies",
+  "kicker": "ROOM 711",
+  "title": "The Mona Lisa",
+  "line": "Smaller than you think.",
+  "ideas": [
+   "The Mona Lisa",
+   "Raja Ravi Varma's art",
+   "How to look at a painting"
+  ]
+ },
+ "constructivist": {
+  "use": "revolutions, propaganda history, politics",
+  "kicker": "1917",
+  "title": "Ten days in October",
+  "line": "The Russian Revolution.",
+  "ideas": [
+   "The Russian Revolution",
+   "Posters that moved people",
+   "Workers' movements"
+  ]
+ },
+ "stencil": {
+  "use": "protest, street culture, activism",
+  "kicker": "WALL 03",
+  "title": "The painting that shredded itself",
+  "line": "Banksy, at auction.",
+  "ideas": [
+   "Banksy's shredded painting",
+   "Street art in India",
+   "A protest, explained"
+  ]
+ },
+ "vaporwave": {
+  "use": "internet aesthetics, nostalgia, memes",
+  "kicker": "AESTHETIC",
+  "title": "The dial-up sound",
+  "line": "The song of 1990s internet.",
+  "ideas": [
+   "The dial-up sound",
+   "Internet aesthetics",
+   "Mall culture of the 90s"
+  ]
+ },
+ "diorama": {
+  "use": "kids' science, ecosystems, how nature works",
+  "kicker": "THE MODEL",
+  "title": "Life in a pond",
+  "line": "A whole world in a puddle.",
+  "ideas": [
+   "Life in a pond",
+   "How a forest works",
+   "Kids' science models"
+  ]
+ },
+ "atlas": {
+  "use": "geography, borders, maps, travel",
+  "kicker": "PLATE 7",
+  "title": "The longest river",
+  "line": "The Nile, through eleven countries.",
+  "ideas": [
+   "The longest river",
+   "Why borders are where they are",
+   "The Silk Road"
+  ]
+ },
+ "wildlife": {
+  "use": "animals, nature, conservation",
+  "kicker": "THE WILD",
+  "title": "Tigers are coming back",
+  "line": "India's tiger count keeps rising.",
+  "ideas": [
+   "Tigers are coming back",
+   "The great migration",
+   "Elephants of Kerala"
+  ]
+ },
+ "ocean": {
+  "use": "oceans, marine life, climate, water",
+  "kicker": "DEEP SEA",
+  "title": "The Mariana Trench",
+  "line": "The deepest place on Earth.",
+  "ideas": [
+   "The Mariana Trench",
+   "Why coral is dying",
+   "Life in the deep"
+  ]
+ },
+ "topographic": {
+  "use": "geography, mountains, rivers, trekking",
+  "kicker": "SHEET 62 B",
+  "title": "How tall is Everest?",
+  "line": "Measured again in 2020.",
+  "ideas": [
+   "How tall is Everest?",
+   "Trekking to Kedarnath",
+   "How rivers carve valleys"
+  ]
+ },
+ "swiss": {
+  "use": "design, data, clean corporate explainers",
+  "kicker": "FACTS",
+  "title": "Helvetica",
+  "line": "The typeface that is everywhere.",
+  "ideas": [
+   "Why Helvetica is everywhere",
+   "Your annual report",
+   "Design rules, simply"
+  ]
+ },
+ "bauhaus": {
+  "use": "design history, architecture, art schools",
+  "kicker": "1919",
+  "title": "The Bauhaus",
+  "line": "A school that shaped modern design.",
+  "ideas": [
+   "The Bauhaus school",
+   "Form follows function",
+   "Shapes in design"
+  ]
+ },
+ "kinetic": {
+  "use": "motivation, quotes, short social videos",
+  "kicker": "SAY IT LOUD",
+  "title": "Start. Ship. Repeat.",
+  "line": "Done beats perfect.",
+  "ideas": [
+   "A motivational quote",
+   "3 rules to ship faster",
+   "A launch teaser"
+  ]
+ },
+ "comic": {
+  "use": "kids, fun science, stories",
+  "kicker": "ISSUE #1",
+  "title": "Why is the sky blue?",
+  "line": "Ask a scientist!",
+  "ideas": [
+   "Why is the sky blue?",
+   "How germs spread",
+   "A science story for kids"
+  ]
+ },
+ "brutalist": {
+  "use": "architecture, raw opinions, contrarian takes",
+  "kicker": "STATEMENT",
+  "title": "Concrete built Chandigarh",
+  "line": "A city planned from scratch.",
+  "ideas": [
+   "How Chandigarh was built",
+   "Concrete architecture",
+   "A bold opinion piece"
+  ]
+ },
+ "isometric": {
+  "use": "how things work, systems, logistics",
+  "kicker": "SYSTEM MAP",
+  "title": "How a parcel reaches you",
+  "line": "Three hops from shelf to door.",
+  "ideas": [
+   "How a parcel reaches you",
+   "Inside a factory",
+   "How a city runs"
+  ]
+ },
+ "flatvector": {
+  "use": "apps, startups, product explainers",
+  "kicker": "HOW IT WORKS",
+  "title": "How UPI moves money",
+  "line": "Scan, approve, done.",
+  "ideas": [
+   "How UPI moves money",
+   "App onboarding",
+   "Your product in 60 seconds"
+  ]
+ },
+ "artdeco": {
+  "use": "luxury, 1920s, cinema history, finance",
+  "kicker": "1929",
+  "title": "The Great Crash",
+  "line": "The Dow fell for three years.",
+  "ideas": [
+   "The Great Crash of 1929",
+   "Old Bombay's art deco",
+   "Hollywood's golden age"
+  ]
+ },
+ "memphis": {
+  "use": "fun lifestyle, food, youth brands",
+  "kicker": "SNACK FACTS",
+  "title": "The story of Maggi",
+  "line": "From Switzerland to every hostel.",
+  "ideas": [
+   "The story of Maggi",
+   "Snack brands we love",
+   "A fun brand intro"
+  ]
+ },
+ "neubrutal": {
+  "use": "startups, tech tips, bold opinions",
+  "kicker": "HOT TAKE",
+  "title": "Ship ugly, ship fast",
+  "line": "Version one should embarrass you.",
+  "ideas": [
+   "Ship ugly, ship fast",
+   "Hot takes on tech",
+   "A startup tip"
+  ]
+ },
+ "clay": {
+  "use": "kids, friendly health, soft explainers",
+  "kicker": "HELLO!",
+  "title": "How teeth get cavities",
+  "line": "Sugar, germs and acid.",
+  "ideas": [
+   "How teeth get cavities",
+   "Why we need sleep, for kids",
+   "A friendly app explainer"
+  ]
+ },
+ "midcentury": {
+  "use": "1950s–60s history, retro brands, the space age",
+  "kicker": "1957",
+  "title": "Sputnik",
+  "line": "The first satellite.",
+  "ideas": [
+   "Sputnik and the space race",
+   "Ads of the 1950s",
+   "Retro design"
+  ]
+ },
+ "transit": {
+  "use": "processes, routes, journeys, step-by-step",
+  "kicker": "LINE 1",
+  "title": "The Delhi Metro",
+  "line": "From one line to a city's lifeline.",
+  "ideas": [
+   "The Delhi Metro story",
+   "Step-by-step: how a loan works",
+   "A journey across India"
+  ]
+ },
+ "travelposter": {
+  "use": "travel, tourism, cities, places",
+  "kicker": "VISIT KERALA",
+  "title": "God's own country",
+  "line": "Backwaters, beaches, hills.",
+  "ideas": [
+   "Visit Kerala",
+   "48 hours in Jaipur",
+   "The best monsoon trips"
+  ]
+ },
+ "canvas": {
+  "use": "art, painting, creativity, slow stories",
+  "kicker": "THE STUDIO",
+  "title": "The Starry Night",
+  "line": "Van Gogh, 1889.",
+  "ideas": [
+   "The Starry Night",
+   "Van Gogh's life",
+   "How painters use colour"
+  ]
+ },
+ "pastel": {
+  "use": "lifestyle, wellbeing, gentle topics",
+  "kicker": "SELF CARE",
+  "title": "Why sleep matters",
+  "line": "Your brain files the day away.",
+  "ideas": [
+   "Why sleep matters",
+   "Self-care basics",
+   "A gentle wellness tip"
+  ]
+ },
+ "sunrise": {
+  "use": "motivation, mornings, new beginnings",
+  "kicker": "DAY ONE",
+  "title": "India's first sunrise",
+  "line": "It comes up first in Arunachal.",
+  "ideas": [
+   "India's first sunrise",
+   "Start your morning right",
+   "New year, new habits"
+  ]
+ },
+ "amphora": {
+  "use": "Greek myths, ancient history, philosophy",
+  "kicker": "490 BC",
+  "title": "The first marathon",
+  "line": "A runner from Marathon to Athens.",
+  "ideas": [
+   "The first marathon",
+   "Greek myths, retold",
+   "Socrates in 60 seconds"
+  ]
+ },
+ "ukiyoe": {
+  "use": "Japan, oceans, weather, art history",
+  "kicker": "EDO, 1831",
+  "title": "The Great Wave",
+  "line": "Hokusai's most famous print.",
+  "ideas": [
+   "The Great Wave",
+   "How tsunamis form",
+   "Japan's woodblock prints"
+  ]
+ },
+ "stainedglass": {
+  "use": "religion, cathedrals, medieval history, art",
+  "kicker": "CHARTRES",
+  "title": "Light through glass",
+  "line": "A rose window, pane by pane.",
+  "ideas": [
+   "The cathedral of Chartres",
+   "How stained glass is made",
+   "Light in sacred spaces"
+  ]
+ },
+ "papercut": {
+  "use": "kids' stories, fairy tales, seasons",
+  "kicker": "ONCE UPON A TIME",
+  "title": "Why seasons change",
+  "line": "The Earth leans as it travels.",
+  "ideas": [
+   "Why seasons change",
+   "A bedtime fairy tale",
+   "The life of a butterfly"
+  ]
+ },
+ "madhubani": {
+  "use": "Indian folk tales, festivals, culture, mythology",
+  "kicker": "MITHILA",
+  "title": "The heritage of Mithila",
+  "line": "Fish for luck, the sun for life, peacocks for love.",
+  "ideas": [
+   "The heritage of Mithila",
+   "Chhath Puja, explained",
+   "Folk tales from Bihar"
+  ]
+ },
+ "mughal": {
+  "use": "Mughal and medieval Indian history, empires",
+  "kicker": "THE MUGHAL COURT",
+  "title": "Akbar's court",
+  "line": "Emperors, guards and gardens under one arch.",
+  "ideas": [
+   "Akbar's court",
+   "How the Taj Mahal was built",
+   "The Mughal empire in 5 minutes"
+  ]
+ },
+ "truckart": {
+  "use": "Indian roads, street culture, festivals, transport",
+  "kicker": "HORN OK PLEASE",
+  "title": "The art on India's trucks",
+  "line": "Every truck, a moving painting.",
+  "ideas": [
+   "Why trucks say 'Horn OK Please'",
+   "Life on India's highways",
+   "Street art of India"
+  ]
+ },
+ "kolam": {
+  "use": "festivals, patterns, maths in art, Indian tradition",
+  "kicker": "PONGAL MORNING",
+  "title": "A kolam for Pongal",
+  "line": "Drawn at dawn, at every door.",
+  "ideas": [
+   "Pongal, explained",
+   "The maths in a kolam",
+   "Diwali traditions"
+  ]
+ },
+ "ncert": {
+  "use": "school lessons, CBSE topics, diagrams",
+  "kicker": "CHAPTER 7 · CLASS 7",
+  "title": "Photosynthesis",
+  "line": "How a leaf makes food.",
+  "ideas": [
+   "Photosynthesis, Class 7",
+   "The water cycle",
+   "Human digestion, labelled"
+  ]
+ }
+}
