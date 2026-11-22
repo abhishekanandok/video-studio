@@ -2,6 +2,13 @@
 
 > **"Your idea, your voice, our visuals."**  
 > An autonomous AI video studio for documentary, educational, and motion-graphics films, tailored for Hindi and Hinglish creators. Research, script, voice generation, visual layout, storyboard review, and Remotion video rendering — with every stage inspectable, cacheable, and editable.
+>
+> <img width="1902" height="1025" alt="image" src="https://github.com/user-attachments/assets/7e89070d-1f61-4e49-a4e6-f4b376c92604" />
+<img width="1917" height="1077" alt="image" src="https://github.com/user-attachments/assets/7814863f-bd55-4edf-8931-cd49c9a58e22" />
+<img width="1917" height="1085" alt="image" src="https://github.com/user-attachments/assets/8ce2efb4-c31e-4eb2-bd06-fcabd9489517" />
+
+
+
 
 ---
 
